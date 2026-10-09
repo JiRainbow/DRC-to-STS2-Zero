@@ -1,0 +1,293 @@
+{
+ "file": "part_000075.c",
+ "bytes": 8000308,
+ "functions": 6990,
+ "addr_min": "0x9f97fc0",
+ "addr_max": "0xab9b138",
+ "top_symbols": [
+  [
+   "FMemory",
+   1593
+  ],
+  [
+   "FFrame",
+   938
+  ],
+  [
+   "UObject",
+   804
+  ],
+  [
+   "UE4CodeGen_Private",
+   459
+  ],
+  [
+   "Freeze",
+   306
+  ],
+  [
+   "FName",
+   205
+  ],
+  [
+   "FInstallBundleCache",
+   203
+  ],
+  [
+   "FMsg",
+   202
+  ],
+  [
+   "FVector",
+   162
+  ],
+  [
+   "FString",
+   159
+  ],
+  [
+   "InstallBundleUtil::PersistentStats",
+   142
+  ],
+  [
+   "FMemoryImageAllocatorBase",
+   140
+  ],
+  [
+   "FFloatProperty",
+   133
+  ],
+  [
+   "FWeakObjectPtr",
+   124
+  ],
+  [
+   "FOpenGLDynamicRHI",
+   119
+  ],
+  [
+   "IConsoleManager",
+   115
+  ],
+  [
+   "FStructProperty",
+   115
+  ],
+  [
+   "FGenericPlatformString",
+   113
+  ],
+  [
+   "UWorld",
+   110
+  ],
+  [
+   "InstallBundleUtil",
+   106
+  ],
+  [
+   "AActor",
+   105
+  ],
+  [
+   "APlayerController",
+   101
+  ],
+  [
+   "FLockFreeLinkPolicy",
+   99
+  ],
+  [
+   "FGenericDataDrivenShaderPlatformInfo",
+   99
+  ],
+  [
+   "UNetDriver",
+   99
+  ]
+ ],
+ "symbol_total": 21985,
+ "strings_top": [
+  [
+   "/Script/Engine",
+   522
+  ],
+  [
+   "Engine",
+   362
+  ],
+  [
+   "BASE",
+   24
+  ],
+  [
+   "Pure virtual not implemented (%s)",
+   13
+  ],
+  [
+   "%s is being added to %s\\'s cluster but hasn\\'t finished loading yet",
+   9
+  ],
+  [
+   "SamplerState",
+   8
+  ],
+  [
+   "/Engine/Private/SimpleElementPixelShader.usf",
+   8
+  ],
+  [
+   "/Script/ClothingSystemRuntimeCommon",
+   7
+  ],
+  [
+   "VolumetricLightmap",
+   6
+  ],
+  [
+   "%.2f GB",
+   6
+  ],
+  [
+   "%.2f KB",
+   6
+  ],
+  [
+   "%.2f B",
+   6
+  ],
+  [
+   "%.2f MB",
+   6
+  ],
+  [
+   "%3.2f ms",
+   6
+  ],
+  [
+   "%4.2f ms",
+   6
+  ],
+  [
+   "GPUSKIN_UNLIMITED_BONE_INFLUENCE",
+   5
+  ],
+  [
+   "/Script/ClothingSystemRuntimeNv",
+   5
+  ],
+  [
+   "GPUSKIN_MORPH_BLEND",
+   4
+  ],
+  [
+   "GPUSKIN_RWBUFFER_OFFSET_TANGENT_X",
+   4
+  ],
+  [
+   "GPUSKIN_RWBUFFER_OFFSET_TANGENT_Z",
+   4
+  ],
+  [
+   "TangentInputBuffer",
+   4
+  ],
+  [
+   "BoneMatrices",
+   4
+  ],
+  [
+   "VelocityTexture",
+   4
+  ],
+  [
+   "CurveTextureSampler",
+   4
+  ],
+  [
+   "Main",
+   4
+  ],
+  [
+   "SrcBuffer",
+   4
+  ],
+  [
+   "SrcPitchParameter",
+   4
+  ],
+  [
+   "DestPosSizeParameter",
+   4
+  ],
+  [
+   "DestTexture",
+   4
+  ],
+  [
+   "GPUSKIN_USE_EXTRA_INFLUENCES",
+   3
+  ]
+ ],
+ "keywords": {
+  "spine": 3,
+  "material": 3477,
+  "skeleton": 9,
+  "vertex": 1447,
+  "color": 827,
+  "pulse": 10,
+  "particle": 2960,
+  "fight": 0
+ },
+ "relevance": 9894,
+ "largest_functions": [
+  [
+   "0xa9fc7e4",
+   17488
+  ],
+  [
+   "0xa08a51c",
+   13100
+  ],
+  [
+   "0xa23eb68",
+   10680
+  ],
+  [
+   "0xa647a54",
+   7948
+  ],
+  [
+   "0xa5c2060",
+   7828
+  ],
+  [
+   "0xa3bc018",
+   7608
+  ],
+  [
+   "0xa06f52c",
+   6556
+  ],
+  [
+   "0xa584678",
+   6492
+  ],
+  [
+   "0xa123f6c",
+   6312
+  ],
+  [
+   "0xa297704",
+   5848
+  ],
+  [
+   "0xa699bfc",
+   5412
+  ],
+  [
+   "0xa4d724c",
+   4980
+  ]
+ ]
+}

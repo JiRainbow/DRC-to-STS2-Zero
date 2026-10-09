@@ -1,0 +1,293 @@
+{
+ "file": "part_000007.c",
+ "bytes": 8019027,
+ "functions": 5111,
+ "addr_min": "0x62c147c",
+ "addr_max": "0x72e059c",
+ "top_symbols": [
+  [
+   "FMemory",
+   1664
+  ],
+  [
+   "UObject",
+   564
+  ],
+  [
+   "FName",
+   474
+  ],
+  [
+   "FFrame",
+   234
+  ],
+  [
+   "UE4CodeGen_Private",
+   233
+  ],
+  [
+   "std::__ndk1",
+   196
+  ],
+  [
+   "MovieScene",
+   193
+  ],
+  [
+   "FWeakObjectPtr",
+   168
+  ],
+  [
+   "FGenericPlatformString",
+   162
+  ],
+  [
+   "FNiagaraDataInterfaceParametersCS_Landscape",
+   146
+  ],
+  [
+   "IConsoleManager",
+   125
+  ],
+  [
+   "FMsg",
+   111
+  ],
+  [
+   "AActor",
+   96
+  ],
+  [
+   "SWidget",
+   87
+  ],
+  [
+   "FNiagaraTypeDefinition",
+   86
+  ],
+  [
+   "UNiagaraDataInterfaceGrid3DCollection",
+   83
+  ],
+  [
+   "FVector",
+   77
+  ],
+  [
+   "UNiagaraDataInterfaceGrid2DCollection",
+   65
+  ],
+  [
+   "SAzureHTMLTextBlockMultiSection",
+   61
+  ],
+  [
+   "FString",
+   60
+  ],
+  [
+   "NiagaraEmitterInstanceBatcher",
+   57
+  ],
+  [
+   "UWidget",
+   56
+  ],
+  [
+   "FSlateDrawElement",
+   56
+  ],
+  [
+   "SharedPointerInternals",
+   53
+  ],
+  [
+   "Audio",
+   53
+  ]
+ ],
+ "symbol_total": 12788,
+ "strings_top": [
+  [
+   "Engine",
+   209
+  ],
+  [
+   "/Script/Niagara",
+   106
+  ],
+  [
+   "/Script/UMGCustom",
+   64
+  ],
+  [
+   "/Script/CoralSkillPlayer",
+   54
+  ],
+  [
+   "/Script/CoralMontage2DPlayer",
+   35
+  ],
+  [
+   "/Script/SpinePlugin",
+   22
+  ],
+  [
+   "/Script/DatasmithContent",
+   20
+  ],
+  [
+   "AkAudio",
+   14
+  ],
+  [
+   "/Script/AzureFacility",
+   12
+  ],
+  [
+   "%d/%d/%d %02d:%02d:%02d ",
+   10
+  ],
+  [
+   "/Script/Paper2D",
+   10
+  ],
+  [
+   "update failed",
+   7
+  ],
+  [
+   "BASE",
+   6
+  ],
+  [
+   "SESSION EVENT: %d",
+   6
+  ],
+  [
+   "/Script/VariantManagerContent",
+   6
+  ],
+  [
+   "/Script/AudioSynesthesia",
+   5
+  ],
+  [
+   "Sampler_",
+   4
+  ],
+  [
+   "/Script/NiagaraAnimNotifies",
+   4
+  ],
+  [
+   "Shader = CreateShader(ShaderIndex) Failed! ShaderIndex=%d, Platform=%d",
+   4
+  ],
+  [
+   "/Script/GameplayCameras",
+   4
+  ],
+  [
+   "update server is in maintenance, please try again later",
+   3
+  ],
+  [
+   "prepare for update",
+   3
+  ],
+  [
+   "reading pack",
+   3
+  ],
+  [
+   "Grid_",
+   3
+  ],
+  [
+   "%s%s",
+   3
+  ],
+  [
+   "Pure virtual not implemented (%s)",
+   3
+  ],
+  [
+   "AzureBMTextRollingConfigs",
+   3
+  ],
+  [
+   "ScreenBlendMaterial",
+   3
+  ],
+  [
+   "PPMatCommonStruct",
+   3
+  ],
+  [
+   "Oodle",
+   3
+  ]
+ ],
+ "keywords": {
+  "spine": 364,
+  "material": 461,
+  "skeleton": 45,
+  "vertex": 273,
+  "color": 170,
+  "pulse": 2,
+  "particle": 6548,
+  "fight": 0
+ },
+ "relevance": 2697,
+ "largest_functions": [
+  [
+   "0x6726af8",
+   17788
+  ],
+  [
+   "0x6c0273c",
+   10324
+  ],
+  [
+   "0x695217c",
+   10080
+  ],
+  [
+   "0x72e059c",
+   8732
+  ],
+  [
+   "0x6df82fc",
+   6328
+  ],
+  [
+   "0x636da9c",
+   6032
+  ],
+  [
+   "0x6ca1190",
+   5820
+  ],
+  [
+   "0x63ea918",
+   5684
+  ],
+  [
+   "0x6601130",
+   5416
+  ],
+  [
+   "0x6432ce4",
+   5220
+  ],
+  [
+   "0x63fb03c",
+   5108
+  ],
+  [
+   "0x6a6878c",
+   4660
+  ]
+ ]
+}

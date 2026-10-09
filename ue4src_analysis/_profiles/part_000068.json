@@ -1,0 +1,293 @@
+{
+ "file": "part_000068.c",
+ "bytes": 8000104,
+ "functions": 4003,
+ "addr_min": "0x9b6b7c8",
+ "addr_max": "0xa7e1500",
+ "top_symbols": [
+  [
+   "FMemory",
+   2014
+  ],
+  [
+   "FVector",
+   288
+  ],
+  [
+   "FGenericPlatformString",
+   281
+  ],
+  [
+   "FFrame",
+   242
+  ],
+  [
+   "FWeakObjectPtr",
+   238
+  ],
+  [
+   "FName",
+   235
+  ],
+  [
+   "FMsg",
+   216
+  ],
+  [
+   "UObject",
+   214
+  ],
+  [
+   "FString",
+   213
+  ],
+  [
+   "FShaderParametersMetadata",
+   189
+  ],
+  [
+   "Freeze",
+   183
+  ],
+  [
+   "ImmediatePhysics_PhysX",
+   173
+  ],
+  [
+   "UActorComponent",
+   170
+  ],
+  [
+   "FLockFreeLinkPolicy",
+   147
+  ],
+  [
+   "AActor",
+   137
+  ],
+  [
+   "UWorld",
+   120
+  ],
+  [
+   "IConsoleManager",
+   118
+  ],
+  [
+   "Chaos",
+   117
+  ],
+  [
+   "FViewUniformShaderParameters",
+   114
+  ],
+  [
+   "UKismetMathLibrary",
+   110
+  ],
+  [
+   "FGraphEvent",
+   107
+  ],
+  [
+   "UE4Function_Private",
+   106
+  ],
+  [
+   "FQuat",
+   100
+  ],
+  [
+   "UCharacterMovementComponent",
+   97
+  ],
+  [
+   "FArchive",
+   96
+  ]
+ ],
+ "symbol_total": 16641,
+ "strings_top": [
+  [
+   "/Script/Engine",
+   52
+  ],
+  [
+   "Engine",
+   39
+  ],
+  [
+   "BASE",
+   18
+  ],
+  [
+   "MaterialExpression",
+   16
+  ],
+  [
+   "X=%3.3f Y=%3.3f Z=%3.3f",
+   11
+  ],
+  [
+   "Utility",
+   10
+  ],
+  [
+   "SamplerState",
+   9
+  ],
+  [
+   "nullrhi",
+   8
+  ],
+  [
+   "Shader = CreateShader(ShaderIndex) Failed! ShaderIndex=%d, Platform=%d",
+   8
+  ],
+  [
+   "[UChannel] ChIndex: %d, Closing: %d %s",
+   6
+  ],
+  [
+   "Malformed_Packet",
+   6
+  ],
+  [
+   "bNeedsCPUAccess",
+   6
+  ],
+  [
+   "[%g %g %g %g] ",
+   4
+  ],
+  [
+   "Phys",
+   4
+  ],
+  [
+   "Pure virtual not implemented (%s)",
+   3
+  ],
+  [
+   "%i: unknown or unsupported animation compression format",
+   3
+  ],
+  [
+   "NULL CONNECTION",
+   3
+  ],
+  [
+   "SkinCacheStart",
+   3
+  ],
+  [
+   "InputStreamStart",
+   3
+  ],
+  [
+   "Particles",
+   3
+  ],
+  [
+   "Vectors",
+   3
+  ],
+  [
+   "MaterialCollection",
+   3
+  ],
+  [
+   "%s: %s: Connection closed",
+   3
+  ],
+  [
+   "Closed",
+   3
+  ],
+  [
+   "FDiffPropertiesImpl: Skipping RepNotify because values are the same: %s",
+   3
+  ],
+  [
+   "Texture3D",
+   3
+  ],
+  [
+   "Input",
+   3
+  ],
+  [
+   "Unknown EQueuedHttpRequestType type.",
+   2
+  ],
+  [
+   "null",
+   2
+  ],
+  [
+   "Single",
+   2
+  ]
+ ],
+ "keywords": {
+  "spine": 0,
+  "material": 2077,
+  "skeleton": 102,
+  "vertex": 1500,
+  "color": 557,
+  "pulse": 0,
+  "particle": 1352,
+  "fight": 0
+ },
+ "relevance": 7460,
+ "largest_functions": [
+  [
+   "0xa539d58",
+   15152
+  ],
+  [
+   "0xa5e630c",
+   14912
+  ],
+  [
+   "0xa4170ac",
+   12772
+  ],
+  [
+   "0xa145a8c",
+   12052
+  ],
+  [
+   "0x9ec591c",
+   8292
+  ],
+  [
+   "0xa597274",
+   8240
+  ],
+  [
+   "0xa23c5b4",
+   7924
+  ],
+  [
+   "0xa447638",
+   7548
+  ],
+  [
+   "0x9c1bb20",
+   6528
+  ],
+  [
+   "0x9e3e400",
+   4496
+  ],
+  [
+   "0xa264e4c",
+   4124
+  ],
+  [
+   "0xa213a08",
+   4116
+  ]
+ ]
+}

@@ -1,0 +1,246 @@
+addr,size,备注
+0xb88a0f0,104,[hb] HarfBuzz整形内部函数(符号被内联去除) (FUN_0b88a0f0)
+0xb88a324,2044,[hb] HarfBuzz整形内部函数(符号被内联去除) (FUN_0b88a324)
+0xb890070,632,[hb] HarfBuzz整形内部函数(符号被内联去除) (FUN_0b890070)
+0xb891364,8,[hb] HarfBuzz整形内部函数(符号被内联去除) (FUN_0b891364)
+0xb89136c,160,[hb] HarfBuzz整形内部函数(符号被内联去除) (FUN_0b89136c)
+0xb89140c,4,[hb] HarfBuzz整形内部函数(符号被内联去除) (FUN_0b89140c)
+0xb891410,12,[hb] HarfBuzz整形内部函数(符号被内联去除) (FUN_0b891410)
+0xb8923f8,428,[hb] HarfBuzz整形内部函数(符号被内联去除) (FUN_0b8923f8)
+0xb892728,12,[hb] HarfBuzz整形内部函数(符号被内联去除) (FUN_0b892728)
+0xb892734,1068,[hb] HarfBuzz整形内部函数(符号被内联去除) (FUN_0b892734)
+0xb894140,772,[hb] HarfBuzz整形内部函数(符号被内联去除) (FUN_0b894140)
+0xb894dc0,508,[hb] HarfBuzz整形内部函数(符号被内联去除) (FUN_0b894dc0)
+0xb8966bc,16,[hb] HarfBuzz整形内部函数(符号被内联去除) (FUN_0b8966bc)
+0xb8966cc,464,[hb] HarfBuzz整形内部函数(符号被内联去除) (FUN_0b8966cc)
+0xb89689c,544,[hb] HarfBuzz整形内部函数(符号被内联去除) (FUN_0b89689c)
+0xb896c20,320,[hb] HarfBuzz整形内部函数(符号被内联去除) (FUN_0b896c20)
+0xb896d60,56,[hb] HarfBuzz整形内部函数(符号被内联去除) (FUN_0b896d60)
+0xb896d98,652,[hb] HarfBuzz整形内部函数(符号被内联去除) (FUN_0b896d98)
+0xb897cd4,64,[hb] HarfBuzz整形内部函数(符号被内联去除) (FUN_0b897cd4)
+0xb897d94,8,[hb] HarfBuzz整形内部函数(符号被内联去除) (FUN_0b897d94)
+0xb897d9c,308,[hb] HarfBuzz整形内部函数(符号被内联去除) (FUN_0b897d9c)
+0xb898064,8,[hb] HarfBuzz整形内部函数(符号被内联去除) (FUN_0b898064)
+0xb89806c,36,[hb] HarfBuzz整形内部函数(符号被内联去除) (FUN_0b89806c)
+0xb898090,16,[hb] HarfBuzz整形内部函数(符号被内联去除) (FUN_0b898090)
+0xb8980a0,8,[hb] HarfBuzz整形内部函数(符号被内联去除) (FUN_0b8980a0)
+0xb8980a8,148,[hb] HarfBuzz整形内部函数(符号被内联去除) (FUN_0b8980a8)
+0xb89827c,1076,[hb] HarfBuzz整形内部函数(符号被内联去除) (FUN_0b89827c)
+0xb899a94,124,[hb] HarfBuzz整形内部函数(符号被内联去除) (FUN_0b899a94)
+0xb899b10,572,[hb] HarfBuzz整形内部函数(符号被内联去除) (FUN_0b899b10)
+0xb899d4c,212,[hb] HarfBuzz整形内部函数(符号被内联去除) (FUN_0b899d4c)
+0xb899e7c,92,[hb] HarfBuzz整形内部函数(符号被内联去除)
+0xb899fc8,20,[hb] HarfBuzz整形内部函数(符号被内联去除)
+0xb899fdc,56,[hb] HarfBuzz整形内部函数(符号被内联去除)
+0xb89a178,48,[hb] HarfBuzz整形内部函数(符号被内联去除)
+0xb89a1dc,8,[hb] HarfBuzz整形内部函数(符号被内联去除)
+0xb89a220,12,[hb] HarfBuzz整形内部函数(符号被内联去除)
+0xb89a22c,12,[hb] HarfBuzz整形内部函数(符号被内联去除)
+0xb89a238,4,[hb] HarfBuzz整形内部函数(符号被内联去除)
+0xb89a23c,4,[hb] HarfBuzz整形内部函数(符号被内联去除)
+0xb89a29c,20,[hb] HarfBuzz: 文种属性哈希
+0xb89a2b0,284,[hb] HarfBuzz整形内部函数(符号被内联去除)
+0xb89a5b0,28,[hb] HarfBuzz整形内部函数(符号被内联去除)
+0xb89a5cc,32,[hb] HarfBuzz整形内部函数(符号被内联去除)
+0xb89a5ec,60,[hb] HarfBuzz整形内部函数(符号被内联去除)
+0xb89a660,292,[hb] HarfBuzz整形内部函数(符号被内联去除)
+0xb89ab88,268,[hb] HarfBuzz整形内部函数(符号被内联去除)
+0xb89ac94,940,[hb] HarfBuzz整形内部函数(符号被内联去除)
+0xb89bb20,236,[hb] HarfBuzz整形内部函数(符号被内联去除)
+0xb89bc6c,12,[hb] HarfBuzz: 空buffer单例
+0xb89bc78,36,[hb] HarfBuzz: buffer API(reference)
+0xb89be04,36,[hb] HarfBuzz: buffer API(get_user_data)
+0xb89be28,8,[hb] HarfBuzz: buffer API(set_content_type)
+0xb89be30,8,[hb] HarfBuzz: buffer API(get_content_type)
+0xb89be38,72,[hb] HarfBuzz: buffer API(set_unicode_funcs)
+0xb89bea0,16,[hb] HarfBuzz: buffer API(set_script)
+0xb89bec8,8,[hb] HarfBuzz: buffer API(get_language)
+0xb89bee8,16,[hb] HarfBuzz: buffer API(get_segment_properties)
+0xb89bf10,16,[hb] HarfBuzz: buffer API(set_cluster_level)
+0xb89bf40,16,[hb] HarfBuzz: buffer API(set_invisible_glyph)
+0xb89bfac,52,[hb] HarfBuzz: buffer API(pre_allocate)
+0xb89c078,200,[hb] HarfBuzz: buffer API(set_length)
+0xb89c98c,552,[hb] HarfBuzz: buffer API(add_utf32)
+0xb89d158,944,[hb] HarfBuzz整形内部函数(符号被内联去除)
+0xb89f100,472,[hb] HarfBuzz: 变量字轴解析
+0xb89f810,20,[hb] HarfBuzz整形内部函数(符号被内联去除)
+0xb89f824,20,[hb] HarfBuzz整形内部函数(符号被内联去除)
+0xb89f838,12,[hb] HarfBuzz整形内部函数(符号被内联去除)
+0xb89f844,292,[hb] HarfBuzz整形内部函数(符号被内联去除)
+0xb89fbe4,16,[hb] HarfBuzz整形内部函数(符号被内联去除)
+0xb89fbf4,16,[hb] HarfBuzz整形内部函数(符号被内联去除)
+0xb89fc04,8,[hb] HarfBuzz整形内部函数(符号被内联去除)
+0xb89fc0c,8,[hb] HarfBuzz整形内部函数(符号被内联去除)
+0xb89fc14,12,[hb] HarfBuzz整形内部函数(符号被内联去除)
+0xb89fc20,16,[hb] HarfBuzz整形内部函数(符号被内联去除)
+0xb89fc30,16,[hb] HarfBuzz整形内部函数(符号被内联去除)
+0xb89fc40,12,[hb] HarfBuzz整形内部函数(符号被内联去除)
+0xb89fc4c,128,[hb] HarfBuzz: 字体函数表API
+0xb8a00a8,140,[hb] HarfBuzz: 字体函数表回调注册(t_font_v_extents_func)
+0xb8a024c,156,[hb] HarfBuzz整形内部函数(符号被内联去除)
+0xb8a0400,24,[hb] HarfBuzz整形内部函数(符号被内联去除)
+0xb8a0418,140,[hb] HarfBuzz: 字体函数表回调注册(t_glyph_h_advance_func)
+0xb8a06c0,140,[hb] HarfBuzz: 字体函数表回调注册(t_glyph_h_advances_func)
+0xb8a0864,168,[hb] HarfBuzz整形内部函数(符号被内联去除)
+0xb8a0acc,88,[hb] HarfBuzz整形内部函数(符号被内联去除)
+0xb8a0bb0,88,[hb] HarfBuzz整形内部函数(符号被内联去除)
+0xb8a0d84,140,[hb] HarfBuzz: 字体函数表回调注册(t_glyph_contour_point_func)
+0xb8a0f44,28,[hb] HarfBuzz整形内部函数(符号被内联去除)
+0xb8a1048,88,[hb] HarfBuzz整形内部函数(符号被内联去除)
+0xb8a10c0,32,[hb] HarfBuzz: 字体度量查询(_v_extents)
+0xb8a1164,24,[hb] HarfBuzz: 字体度量查询(_glyph_h_advance)
+0xb8a11e4,40,[hb] HarfBuzz: 字体度量查询(_glyph_h_origin)
+0xb8a126c,32,[hb] HarfBuzz: 字体度量查询(_glyph_extents)
+0xb8a1340,188,[hb] HarfBuzz: 方向相关度量
+0xb8a1644,204,[hb] HarfBuzz: 字形边界框
+0xb8a1b44,304,[hb] HarfBuzz: 字体API
+0xb8a204c,16,[hb] HarfBuzz: 字体属性设置(_scale)
+0xb8a205c,28,[hb] HarfBuzz: 字体度量查询(_scale)
+0xb8a20a4,16,[hb] HarfBuzz: 字体属性设置(_ptem)
+0xb8a216c,124,[hb] HarfBuzz: 字体属性设置(_var_coords_normalized)
+0xb8a2414,12,[hb] HarfBuzz整形内部函数(符号被内联去除)
+0xb8a2568,328,[hb] HarfBuzz: 竖排原点回退
+0xb8a2b40,312,[hb] HarfBuzz: face API(create)
+0xb8a2ec4,200,[hb] HarfBuzz: face API(set_user_data)
+0xb8a3334,220,[hb] HarfBuzz: face API(collect_variation_selectors)
+0xb8a38b8,156,[hb] HarfBuzz: face API(builder_add_table)
+0xb8a3da0,216,[hb] HarfBuzz: 收集unicode覆盖
+0xb8a4158,196,[hb] HarfBuzz: 集合/缓冲扩容
+0xb8a4498,476,[hb] HarfBuzz: unicode区间添加
+0xb8a4d4c,568,[hb] HarfBuzz: 字体表消毒校验(sanitize)
+0xb8a6480,4,[hb] HarfBuzz: cmap格式12查字形
+0xb8a666c,296,[hb] HarfBuzz: 字体表消毒校验(sanitize)
+0xb8a6dd8,344,[hb] HarfBuzz: 字体表消毒校验(sanitize)
+0xb8a7460,196,[hb] HarfBuzz: 集合/缓冲扩容
+0xb8a79e8,12,[hb] HarfBuzz: blob字体数据API(get_empty)
+0xb8a79f4,140,[hb] HarfBuzz: blob字体数据API(destroy)
+0xb8a7bb8,16,[hb] HarfBuzz: blob字体数据API(make_immutable)
+0xb8a7bc8,36,[hb] HarfBuzz: blob字体数据API(reference)
+0xb8a7c78,60,[hb] HarfBuzz: blob字体数据API(copy_writable_or_fail)
+0xb8a7cb4,200,[hb] HarfBuzz: blob字体数据API(set_user_data)
+0xb8a803c,40,[hb] HarfBuzz: FreeType桥接
+0xb8a8258,8,[hb] HarfBuzz整形内部函数(符号被内联去除)
+0xb8a8260,152,[hb] HarfBuzz: FreeType桥接
+0xb8a865c,304,[hb] HarfBuzz: 生命周期(create)
+0xb8a8db8,180,[hb] HarfBuzz整形内部函数(符号被内联去除)
+0xb8a968c,184,[hb] HarfBuzz: 生命周期(fini)
+0xb8a991c,164,[hb] HarfBuzz: OT字体funcs安装
+0xb8a9d18,76,[hb] HarfBuzz整形内部函数(符号被内联去除)
+0xb8a9e04,252,[hb] HarfBuzz整形内部函数(符号被内联去除)
+0xb8aa7e0,300,[hb] HarfBuzz整形内部函数(符号被内联去除)
+0xb8aae80,352,[hb] HarfBuzz: 字体表消毒校验(sanitize_blob<OT::OS2>)
+0xb8ab0f8,228,[hb] HarfBuzz: 字体表消毒校验(sanitize_blob<OT::hhea>)
+0xb8ab500,364,[hb] HarfBuzz: 字体表消毒校验(sanitize)
+0xb8ac228,200,[hb] HarfBuzz: 变量字轴增量
+0xb8ac8fc,216,[hb] HarfBuzz: 变量字轴增量
+0xb8ad1c4,484,[hb] HarfBuzz: 字体表消毒校验(sanitize_blob<OT::sbix>)
+0xb8aeaa8,416,[hb] HarfBuzz: 字体表消毒校验(sanitize)
+0xb8afbbc,556,[hb] HarfBuzz: CFF BCD数值解析
+0xb8b1948,228,[hb] HarfBuzz: 字体表消毒校验(sanitize)
+0xb8b1d3c,640,[hb] HarfBuzz: CFF字节码解释器
+0xb8b30d0,188,[hb] HarfBuzz: 字体表消毒校验(sanitize<OT::IntType<unsigned_int;4u>>)
+0xb8b318c,256,[hb] HarfBuzz: 字体表消毒校验(sanitize)
+0xb8b347c,232,[hb] HarfBuzz: 字体表消毒校验(sanitize_blob<OT::CBDT>)
+0xb8b39ec,352,[hb] HarfBuzz: 字体表消毒校验(sanitize_blob<OT::post>)
+0xb8b43cc,160,[hb] HarfBuzz整形内部函数(符号被内联去除)
+0xb8b484c,84,[hb] ~interpreter_t
+0xb8b4d28,1852,[hb] HarfBuzz: CFF字节码解释器
+0xb8bab20,560,[hb] HarfBuzz: CFF子程序调用
+0xb8bbec8,1172,[hb] HarfBuzz: CFF路径算子
+0xb8bed4c,720,[hb] HarfBuzz: CFF字节码解释器
+0xb8c0a1c,76,[hb] HarfBuzz整形内部函数(符号被内联去除)
+0xb8c0a68,128,[hb] HarfBuzz: 生命周期(fini)
+0xb8c0ae8,172,[hb] HarfBuzz整形内部函数(符号被内联去除)
+0xb8c0b94,8,[hb] HarfBuzz整形内部函数(符号被内联去除)
+0xb8c0ba0,8,[hb] HarfBuzz整形内部函数(符号被内联去除)
+0xb8c0bac,4724,[hb] HarfBuzz整形内部函数(符号被内联去除)
+0xb8d4eec,188,[hb] HarfBuzz: 生命周期(init)
+0xb8d54c8,432,[hb] HarfBuzz: 字体表消毒校验(sanitize)
+0xb8d647c,524,[hb] HarfBuzz: 字体表消毒校验(sanitize_blob<OT::kern>)
+0xb8d812c,372,[hb] HarfBuzz: 字体表消毒校验(sanitize)
+0xb8d8dcc,220,[hb] HarfBuzz: 字体表消毒校验(sanitize)
+0xb8d96ec,324,[hb] HarfBuzz: 表分发(dispatch<hb_sanitize_context_t>)
+0xb8da890,232,[hb] HarfBuzz: 字体表消毒校验(sanitize)
+0xb8db444,428,[hb] HarfBuzz: 字体表消毒校验(sanitize)
+0xb8dc8b0,348,[hb] HarfBuzz: GSUB/GPOS应用(apply)
+0xb8dd8ec,392,[hb] HarfBuzz: GSUB/GPOS应用(apply)
+0xb8de540,508,[hb] HarfBuzz整形内部函数(符号被内联去除)
+0xb8df51c,232,[hb] HarfBuzz: 字体表消毒校验(sanitize)
+0xb8e003c,432,[hb] HarfBuzz: 字体表消毒校验(sanitize)
+0xb8e1040,184,[hb] HarfBuzz: 字体表消毒校验(sanitize)
+0xb8e1e58,312,[hb] HarfBuzz: GSUB/GPOS应用(apply)
+0xb8e2ce4,4,[hb] HarfBuzz: GSUB/GPOS应用(apply_to<OT::MarkBasePosFormat1>)
+0xb8e3d94,652,[hb] HarfBuzz: 字体表消毒校验(sanitize<void_const*>)
+0xb8e632c,1268,[hb] HarfBuzz: 字体表消毒校验(sanitize)
+0xb8eb2cc,260,[hb] HarfBuzz: GSUB/GPOS应用(apply)
+0xb8ebfb8,728,[hb] HarfBuzz/AAT: 状态机迁移
+0xb8ed234,940,[hb] drive<AAT::LigatureSubtable<AAT::ObsoleteTypes>::driver_context_t>
+0xb8efd60,264,[hb] HarfBuzz: 字体表消毒校验(sanitize<OT::IntType<unsigned_char;1u>const*>)
+0xb8f09a8,492,[hb] HarfBuzz: 表分发(dispatch<AAT::hb_aat_apply_context_t>)
+0xb8f2e50,860,[hb] HarfBuzz/AAT: kern字距调整
+0xb8f65b4,920,[hb] HarfBuzz/AAT: kern字距调整
+0xb8fb1f4,600,[hb] HarfBuzz: 表序列化
+0xb8fd154,388,[hb] HarfBuzz整形内部函数(符号被内联去除)
+0xb900604,336,[hb] HarfBuzz整形内部函数(符号被内联去除)
+0xb900754,9544,[hb] HarfBuzz整形内部函数(符号被内联去除)
+0xb94ca8c,400,[vorbis] libvorbis: vorbis_encode_setup_vbr
+0xb94ced0,308,[vorbis] libvorbis: vorbis_encode_setup_managed
+0xb94d538,844,[vorbis] libvorbis: 窗口应用
+0xb94e6a8,72,[vorbis] libvorbis: OggVorbisFile API ov_serialnumber
+0xb94e6f0,156,[vorbis] libvorbis: OggVorbisFile API ov_raw_total
+0xb94ec24,284,[vorbis] libvorbis内部函数
+0xb94f354,924,[vorbis] libvorbis内部函数
+0xb9513f8,448,[vorbis] libvorbis内部函数
+0xb951a1c,484,[vorbis] libvorbis: vorbis_synthesis
+0xb952270,44,[opus] libopus: opus_strerror
+0xb95229c,12,[opus] libopus: opus_get_version_string
+0xb9525e0,48,[opus] libopus: 包大小编码
+0xb952610,1004,[opus] libopus: opus_packet_parse_impl
+0xb958e0c,876,[opus] libopus/celt: LPC
+0xb95a7d0,800,[opus] libopus/celt: celt_pitch_xcorr_c
+0xb95bfec,112,[opus] libopus/celt: celt_rsqrt_norm
+0xb95c05c,196,[opus] libopus/celt: celt_sqrt
+0xb95c244,136,[opus] libopus/celt: 滞回判定
+0xb95ca0c,1072,[opus] libopus/celt: 抗坍缩
+0xb95f8e4,1964,[opus] libopus内部函数
+0xb96240c,260,[opus] libopus: 熵编码器
+0xb96266c,784,[opus] libopus: 熵编码器
+0xb96598c,2976,[opus] libopus: opus_ifft
+0xb96a220,524,[opus] libopus/silk: silk_PLC_glue_frames
+0xb96a42c,464,[opus] libopus/silk: silk_LPC_analysis_filter
+0xb96a770,3056,[opus] libopus/silk: silk_decode_core
+0xb979370,724,[opus] libopus内部函数
+0xb97af58,16,[opus] libopus/silk: silk_Get_Encoder_Size
+0xb97af68,244,[opus] libopus/silk: silk_InitEncoder
+0xb97b05c,5160,[opus] libopus/silk: silk_Encode
+0xb99cb74,168,[swappy] swappy: 刷新率变化回调
+0xb99cef4,552,[swappy] swappy: 帧节奏等待
+0xb99d878,136,[swappy] swappy: 平均帧时统计
+0xb99dd24,188,[swappy] swappy: 交换前回调
+0xb99dde0,76,[swappy] swappy: 交换回调列表
+0xb99e09c,136,[swappy] swappy: 交换回调列表
+0xb99e124,88,[swappy] swappy: 交换时长统计
+0xb99e17c,904,[swappy] swappy: 交换间隔自适应
+0xb99eeb8,224,[swappy] swappy: 自动交换间隔
+0xb99f1a8,468,[swappy] swappy: 时间等待
+0xb99f9b8,24,[swappy] swappy/杂项内部函数
+0xb99f9d0,4,[swappy] swappy/杂项内部函数
+0xb99f9d8,116,[swappy] swappy/杂项内部函数
+0xb99faec,4,[swappy] swappy/杂项内部函数
+0xb99fb34,24,[swappy] swappy/杂项内部函数
+0xb99fc04,24,[swappy] swappy/杂项内部函数
+0xb99fc34,56,[swappy] swappy/杂项内部函数
+0xb99fee4,312,[swappy] swappy/杂项内部函数
+0xb9a03c4,312,[swappy] std::deque/list前插
+0xb9a05a8,28,[swappy] std::list/string克隆
+0xb9a0620,28,[swappy] std::list/string克隆
+0xb9a065c,60,[swappy] std::list/string克隆
+0xb9a0ab4,416,[swappy] swappy: CPU/GPU tracer线程
+0xb9a1df0,104,[swappy] swappy: 空闲等待
+0xb9a1ec0,232,[swappy] swappy: 帧完成判定
+0xb9a245c,572,[swappy] swappy: CPU/GPU tracer线程
+0xb9a3b98,400,[swappy] swappy/杂项内部函数
+0xb9a40d8,108,[swappy] swappy/杂项内部函数
+0xb9a41bc,544,[swappy] swappy/杂项内部函数
+0xb9a6078,360,[swappy] swappy/杂项内部函数
+0xb9a64d0,2428,[swappy] swappy/杂项内部函数

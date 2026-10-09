@@ -1,0 +1,112 @@
+{
+ "file": "part_000102.c",
+ "bytes": 180470,
+ "functions": 27,
+ "addr_min": "0xb9672bc",
+ "addr_max": "0xb997094",
+ "top_symbols": [
+  [
+   "std::__ndk1",
+   61
+  ],
+  [
+   "gamesdk::Trace",
+   16
+  ],
+  [
+   "std::__ndk1::char_traits<char>>",
+   11
+  ],
+  [
+   "std::__ndk1::ios_base",
+   5
+  ],
+  [
+   "std::__ndk1::allocator<char>>",
+   4
+  ],
+  [
+   "swappy::JavaChoreographerThread",
+   2
+  ],
+  [
+   "std::__ndk1::mutex",
+   2
+  ],
+  [
+   "swappy",
+   2
+  ],
+  [
+   "swappy::CpuInfo",
+   2
+  ],
+  [
+   "swappy::ChoreographerThread",
+   1
+  ]
+ ],
+ "symbol_total": 106,
+ "strings_top": [],
+ "keywords": {
+  "spine": 0,
+  "material": 0,
+  "skeleton": 0,
+  "vertex": 0,
+  "color": 0,
+  "pulse": 0,
+  "particle": 0,
+  "fight": 0
+ },
+ "relevance": 0,
+ "largest_functions": [
+  [
+   "0xb97e05c",
+   5076
+  ],
+  [
+   "0xb997094",
+   2972
+  ],
+  [
+   "0xb96738c",
+   2832
+  ],
+  [
+   "0xb98b194",
+   2088
+  ],
+  [
+   "0xb97a7c4",
+   1940
+  ],
+  [
+   "0xb96e5ac",
+   1684
+  ],
+  [
+   "0xb996c70",
+   200
+  ],
+  [
+   "0xb9672bc",
+   136
+  ],
+  [
+   "0xb96e508",
+   88
+  ],
+  [
+   "0xb96e560",
+   76
+  ],
+  [
+   "0xb996c30",
+   64
+  ],
+  [
+   "0xb996ecc",
+   56
+  ]
+ ]
+}

@@ -1,0 +1,9 @@
+[gd_resource type="SpineSkeletonDataResource" load_steps=3 format=3 uid="uid://d4li4q7d3n0nb"]
+
+[ext_resource type="SpineAtlasResource" path="res://ling/animations/characters/silent/ling.atlas" id="1_st8n0"]
+[ext_resource type="SpineSkeletonFileResource" path="res://ling/animations/characters/silent/ling.json" id="2_g2c6w"]
+
+[resource]
+atlas_res = ExtResource("1_st8n0")
+skeleton_file_res = ExtResource("2_g2c6w")
+default_mix = 0.05

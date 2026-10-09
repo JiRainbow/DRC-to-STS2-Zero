@@ -1,0 +1,9 @@
+[gd_resource type="ShaderMaterial" load_steps=3 format=3]
+
+[ext_resource type="Shader" path="res://drc_dye/profiles/ling/animations/characters/silent/ling_dissolve_mix.gdshader" id="1"]
+[ext_resource type="Texture2D" path="res://drc_dye/profiles/ling/animations/characters/silent/drc_dissolution_noise.png" id="2"]
+
+[resource]
+shader = ExtResource("1")
+shader_parameter/noise_tex = ExtResource("2")
+shader_parameter/dissolve = 0.0

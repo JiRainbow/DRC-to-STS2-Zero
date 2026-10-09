@@ -1,0 +1,293 @@
+{
+ "file": "part_000060.c",
+ "bytes": 8002216,
+ "functions": 4846,
+ "addr_min": "0x936db50",
+ "addr_max": "0x9e81d28",
+ "top_symbols": [
+  [
+   "MovieScene",
+   3357
+  ],
+  [
+   "FMemory",
+   1914
+  ],
+  [
+   "UObject",
+   449
+  ],
+  [
+   "Audio",
+   352
+  ],
+  [
+   "MovieScene::TPreAnimatedPropertyStorageImpl<UE::MovieScene",
+   348
+  ],
+  [
+   "UE4CodeGen_Private",
+   261
+  ],
+  [
+   "FName",
+   226
+  ],
+  [
+   "FFrame",
+   214
+  ],
+  [
+   "FWeakObjectPtr",
+   209
+  ],
+  [
+   "FVector",
+   155
+  ],
+  [
+   "FMsg",
+   145
+  ],
+  [
+   "AActor",
+   120
+  ],
+  [
+   "FPropertyAccessSystem",
+   117
+  ],
+  [
+   "Freeze",
+   110
+  ],
+  [
+   "UAssetRegistryImpl",
+   108
+  ],
+  [
+   "MovieScene::TPropertyMetaData<UE::MovieScene",
+   105
+  ],
+  [
+   "MovieScene::TReadOneOfAccessor<UE::MovieScene",
+   102
+  ],
+  [
+   "FMemoryImageAllocatorBase",
+   100
+  ],
+  [
+   "FShaderCompilerDefinitions",
+   98
+  ],
+  [
+   "MovieScene::TPropertyValueStorage<UE::MovieScene::TDirectPropertyTraits<UE::MovieScene::FIntermediate3DTransform>>",
+   94
+  ],
+  [
+   "FString",
+   91
+  ],
+  [
+   "MovieScene::TPropertyValueStorage<UE::MovieScene::TDirectPropertyTraits<int>>",
+   90
+  ],
+  [
+   "UE4Function_Private",
+   89
+  ],
+  [
+   "MovieScene::TComponentLock<UE::MovieScene",
+   80
+  ],
+  [
+   "MovieScene::TPropertyValueStorage<UE::MovieScene",
+   80
+  ]
+ ],
+ "symbol_total": 20809,
+ "strings_top": [
+  [
+   "Engine",
+   185
+  ],
+  [
+   "/Script/UMG",
+   89
+  ],
+  [
+   "/Script/Landscape",
+   76
+  ],
+  [
+   "/Script/AnimGraphRuntime",
+   52
+  ],
+  [
+   "/Script/MovieScene",
+   49
+  ],
+  [
+   "BASE",
+   15
+  ],
+  [
+   "USE_MATERIALS",
+   15
+  ],
+  [
+   "SHADER_TYPE",
+   11
+  ],
+  [
+   "DRAW_DISABLED_EFFECT",
+   11
+  ],
+  [
+   "USE_SOFTCLIP",
+   11
+  ],
+  [
+   "%i: unknown or unsupported animation compression format",
+   11
+  ],
+  [
+   "Pure virtual not implemented (%s)",
+   10
+  ],
+  [
+   "EditorPerProjectUserSettings",
+   10
+  ],
+  [
+   "NUM_CUSTOMIZED_UVS",
+   9
+  ],
+  [
+   "/Script/GameplayTags",
+   9
+  ],
+  [
+   "/Script/LevelSequence",
+   9
+  ],
+  [
+   "%s. Expected %d, actual %d.",
+   8
+  ],
+  [
+   "/Script/MovieSceneCapture",
+   8
+  ],
+  [
+   "X=%3.3f Y=%3.3f Z=%3.3f",
+   8
+  ],
+  [
+   "%s<W:%.1f%%> %s",
+   7
+  ],
+  [
+   "/Script/AudioMixer",
+   7
+  ],
+  [
+   "USE_TEXTURE_ALPHA",
+   6
+  ],
+  [
+   "USE_DEPTH",
+   6
+  ],
+  [
+   "Running entity task the following components: %s",
+   5
+  ],
+  [
+   "/Script/ClothingSystemRuntimeInterface",
+   5
+  ],
+  [
+   "Audio",
+   5
+  ],
+  [
+   "SceneComponent",
+   5
+  ],
+  [
+   "Landscape",
+   4
+  ],
+  [
+   "<debug info compiled out> - enable UE_MOVIESCENE_ENTITY_DEBUG",
+   4
+  ],
+  [
+   "HAS_SCREEN_POSITION",
+   4
+  ]
+ ],
+ "keywords": {
+  "spine": 0,
+  "material": 952,
+  "skeleton": 53,
+  "vertex": 424,
+  "color": 465,
+  "pulse": 3,
+  "particle": 91,
+  "fight": 0
+ },
+ "relevance": 2914,
+ "largest_functions": [
+  [
+   "0x9a5783c",
+   11908
+  ],
+  [
+   "0x9d13c98",
+   11460
+  ],
+  [
+   "0x9583a78",
+   10688
+  ],
+  [
+   "0x9dfca34",
+   8368
+  ],
+  [
+   "0x93b0fcc",
+   7224
+  ],
+  [
+   "0x94b6d88",
+   5848
+  ],
+  [
+   "0x96fe770",
+   5572
+  ],
+  [
+   "0x950e1a4",
+   4432
+  ],
+  [
+   "0x9d9fab0",
+   4248
+  ],
+  [
+   "0x9901b8c",
+   4240
+  ],
+  [
+   "0x9b3f688",
+   4060
+  ],
+  [
+   "0x9bce430",
+   3488
+  ]
+ ]
+}

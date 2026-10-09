@@ -1,0 +1,172 @@
+{
+ "file": "part_000100.c",
+ "bytes": 763169,
+ "functions": 245,
+ "addr_min": "0xb88a0f0",
+ "addr_max": "0xb9a64d0",
+ "top_symbols": [
+  [
+   "gamesdk::Trace",
+   57
+  ],
+  [
+   "CFF",
+   45
+  ],
+  [
+   "AAT",
+   40
+  ],
+  [
+   "std::__ndk1::allocator<std::__ndk1",
+   36
+  ],
+  [
+   "swappy::SwappyCommon",
+   28
+  ],
+  [
+   "AAT::InsertionSubtable<AAT::ExtendedTypes>",
+   22
+  ],
+  [
+   "std::__ndk1::mutex",
+   20
+  ],
+  [
+   "FMemory",
+   19
+  ],
+  [
+   "std::__ndk1::list<std::__ndk1",
+   18
+  ],
+  [
+   "hb_buffer_t",
+   16
+  ],
+  [
+   "hb_sanitize_context_t::sanitize_blob<OT",
+   14
+  ],
+  [
+   "AAT::LookupSegmentArray<OT::OffsetTo<OT::ArrayOf<OT",
+   14
+  ],
+  [
+   "CFF::Subrs<OT",
+   12
+  ],
+  [
+   "AAT::Lookup<OT::NNOffsetTo<OT::LArrayOf<AAT",
+   11
+  ],
+  [
+   "hb_font_t",
+   10
+  ],
+  [
+   "std::__ndk1",
+   9
+  ],
+  [
+   "std::__ndk1::allocator<swappy::addToTracers<std::__ndk1::list<std::__ndk1",
+   9
+  ],
+  [
+   "cff2_cs_interp_env_t",
+   8
+  ],
+  [
+   "std::__ndk1::chrono",
+   8
+  ],
+  [
+   "hb_ot_apply_context_t::skipping_iterator_t",
+   7
+  ],
+  [
+   "hb_user_data_array_t",
+   6
+  ],
+  [
+   "Coverage",
+   6
+  ],
+  [
+   "swappy::addToTracers<std::__ndk1::list<std::__ndk1",
+   6
+  ],
+  [
+   "hb_set_t",
+   5
+  ],
+  [
+   "CFF::number_t>",
+   5
+  ]
+ ],
+ "symbol_total": 600,
+ "strings_top": [],
+ "keywords": {
+  "spine": 0,
+  "material": 0,
+  "skeleton": 0,
+  "vertex": 0,
+  "color": 0,
+  "pulse": 0,
+  "particle": 0,
+  "fight": 0
+ },
+ "relevance": 0,
+ "largest_functions": [
+  [
+   "0xb900754",
+   9544
+  ],
+  [
+   "0xb97b05c",
+   5160
+  ],
+  [
+   "0xb8c0bac",
+   4724
+  ],
+  [
+   "0xb96a770",
+   3056
+  ],
+  [
+   "0xb96598c",
+   2976
+  ],
+  [
+   "0xb9a64d0",
+   2428
+  ],
+  [
+   "0xb88a324",
+   2044
+  ],
+  [
+   "0xb95f8e4",
+   1964
+  ],
+  [
+   "0xb8b4d28",
+   1852
+  ],
+  [
+   "0xb8e632c",
+   1268
+  ],
+  [
+   "0xb8bbec8",
+   1172
+  ],
+  [
+   "0xb89827c",
+   1076
+  ]
+ ]
+}

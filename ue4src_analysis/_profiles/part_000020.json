@@ -1,0 +1,293 @@
+{
+ "file": "part_000020.c",
+ "bytes": 8002617,
+ "functions": 4097,
+ "addr_min": "0x70c1a60",
+ "addr_max": "0x7f28688",
+ "top_symbols": [
+  [
+   "FMemory",
+   2299
+  ],
+  [
+   "UObject",
+   376
+  ],
+  [
+   "FString",
+   340
+  ],
+  [
+   "Chaos",
+   284
+  ],
+  [
+   "FName",
+   256
+  ],
+  [
+   "UE4Function_Private",
+   214
+  ],
+  [
+   "FGenericPlatformString",
+   213
+  ],
+  [
+   "FLinkerPlaceholderBase",
+   187
+  ],
+  [
+   "FFrame",
+   165
+  ],
+  [
+   "FMsg",
+   162
+  ],
+  [
+   "FReferenceChainSearch",
+   154
+  ],
+  [
+   "UE4CodeGen_Private",
+   143
+  ],
+  [
+   "FDynamicMesh3",
+   135
+  ],
+  [
+   "FText",
+   108
+  ],
+  [
+   "FStaticCustomVersionRegistry",
+   108
+  ],
+  [
+   "SharedPointerInternals",
+   91
+  ],
+  [
+   "FSmallListSet",
+   86
+  ],
+  [
+   "const",
+   79
+  ],
+  [
+   "FImgMediaGlobalCache",
+   78
+  ],
+  [
+   "gte",
+   72
+  ],
+  [
+   "FCsvStreamWriter",
+   70
+  ],
+  [
+   "FRefCountVector",
+   69
+  ],
+  [
+   "UObjectBaseUtility",
+   67
+  ],
+  [
+   "FTextLocalizationManager",
+   66
+  ],
+  [
+   "EKeys",
+   63
+  ]
+ ],
+ "symbol_total": 13924,
+ "strings_top": [
+  [
+   "Engine",
+   124
+  ],
+  [
+   "/Script/CoreUObject",
+   53
+  ],
+  [
+   "%s: The two values are not equal.",
+   33
+  ],
+  [
+   "/Script/CoralSkillPlayer",
+   23
+  ],
+  [
+   "Failed to find entry point for %s",
+   19
+  ],
+  [
+   "%s%s",
+   18
+  ],
+  [
+   "OSS: ",
+   16
+  ],
+  [
+   "/Script/SpinePlugin",
+   12
+  ],
+  [
+   "/Script/CoralAVGRuntime",
+   10
+  ],
+  [
+   "/Script/CoralMontage2DPlayer",
+   10
+  ],
+  [
+   "default",
+   10
+  ],
+  [
+   "/Script/Paper2D",
+   8
+  ],
+  [
+   "/Script/Synthesis",
+   8
+  ],
+  [
+   "NetworkErrors",
+   6
+  ],
+  [
+   "X=%3.3f Y=%3.3f Z=%3.3f",
+   5
+  ],
+  [
+   "Name",
+   5
+  ],
+  [
+   "PluginManager",
+   5
+  ],
+  [
+   "/Script/Engine",
+   3
+  ],
+  [
+   "Pure virtual not implemented (%s)",
+   3
+  ],
+  [
+   "OnlineSubsystem",
+   3
+  ],
+  [
+   "Invalid texture in SRT table for shader \\'%s\\'",
+   3
+  ],
+  [
+   "Message",
+   3
+  ],
+  [
+   "DataDrivenPlatformInfo",
+   3
+  ],
+  [
+   "%d\\n",
+   3
+  ],
+  [
+   "-[%d] %s",
+   3
+  ],
+  [
+   "+[%d] %s",
+   3
+  ],
+  [
+   "Import",
+   3
+  ],
+  [
+   "Export",
+   3
+  ],
+  [
+   "FProperty",
+   3
+  ],
+  [
+   "ByteProperty",
+   3
+  ]
+ ],
+ "keywords": {
+  "spine": 217,
+  "material": 158,
+  "skeleton": 7,
+  "vertex": 603,
+  "color": 98,
+  "pulse": 2,
+  "particle": 750,
+  "fight": 0
+ },
+ "relevance": 2196,
+ "largest_functions": [
+  [
+   "0x7c6985c",
+   22816
+  ],
+  [
+   "0x798f60c",
+   9248
+  ],
+  [
+   "0x725ba80",
+   7260
+  ],
+  [
+   "0x7c2b1fc",
+   7184
+  ],
+  [
+   "0x748f8a4",
+   6560
+  ],
+  [
+   "0x77b55a0",
+   6464
+  ],
+  [
+   "0x7d8b034",
+   5880
+  ],
+  [
+   "0x74d1140",
+   5736
+  ],
+  [
+   "0x75a45b0",
+   5668
+  ],
+  [
+   "0x7ef2af4",
+   5416
+  ],
+  [
+   "0x7e4f450",
+   5412
+  ],
+  [
+   "0x7408764",
+   5216
+  ]
+ ]
+}

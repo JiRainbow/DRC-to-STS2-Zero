@@ -1,0 +1,293 @@
+{
+ "file": "part_000013.c",
+ "bytes": 8002720,
+ "functions": 3959,
+ "addr_min": "0x62c16c4",
+ "addr_max": "0x7567b48",
+ "top_symbols": [
+  [
+   "FMemory",
+   1523
+  ],
+  [
+   "INiagaraModule",
+   432
+  ],
+  [
+   "UObject",
+   405
+  ],
+  [
+   "FName",
+   373
+  ],
+  [
+   "UE4Function_Private",
+   305
+  ],
+  [
+   "Chaos",
+   289
+  ],
+  [
+   "FVector",
+   238
+  ],
+  [
+   "MovieScene",
+   232
+  ],
+  [
+   "std::__ndk1",
+   230
+  ],
+  [
+   "FNiagaraVariable",
+   180
+  ],
+  [
+   "UE4CodeGen_Private",
+   158
+  ],
+  [
+   "FFrame",
+   158
+  ],
+  [
+   "FWeakObjectPtr",
+   143
+  ],
+  [
+   "const",
+   142
+  ],
+  [
+   "gte",
+   131
+  ],
+  [
+   "Audio",
+   119
+  ],
+  [
+   "std::__ndk1::__value_type<gte",
+   92
+  ],
+  [
+   "FDynamicMesh3",
+   87
+  ],
+  [
+   "TUNiagaraDataInterfaceSkeletalMesh_GetTriCoordSkinnedDataBinder",
+   86
+  ],
+  [
+   "AActor",
+   85
+  ],
+  [
+   "FGenericPlatformString",
+   83
+  ],
+  [
+   "std::__ndk1::shared_ptr<gte::ETNonmanifoldMesh",
+   80
+  ],
+  [
+   "FString",
+   78
+  ],
+  [
+   "FInternationalization",
+   75
+  ],
+  [
+   "std::__ndk1::shared_ptr<gte::ETManifoldMesh",
+   73
+  ]
+ ],
+ "symbol_total": 12263,
+ "strings_top": [
+  [
+   "Engine",
+   148
+  ],
+  [
+   "FNiagaraConstants",
+   73
+  ],
+  [
+   "/Script/UMGCustom",
+   71
+  ],
+  [
+   "/Script/AzureFacility",
+   30
+  ],
+  [
+   "/Script/DatasmithContent",
+   27
+  ],
+  [
+   "/Script/CoralSkillPlayer",
+   25
+  ],
+  [
+   "%d/%d/%d %02d:%02d:%02d ",
+   12
+  ],
+  [
+   "/Script/Paper2D",
+   12
+  ],
+  [
+   "/Script/VariantManagerContent",
+   9
+  ],
+  [
+   "/Script/GameplayCameras",
+   8
+  ],
+  [
+   "/Script/MediaCompositing",
+   8
+  ],
+  [
+   "/Script/CoralMontage2DPlayer",
+   8
+  ],
+  [
+   "/Script/TemplateSequence",
+   6
+  ],
+  [
+   "/Script/GeometryCache",
+   6
+  ],
+  [
+   "/Script/SpinePlugin",
+   5
+  ],
+  [
+   "1.0,1.0,1.0,1.0",
+   4
+  ],
+  [
+   "/Script/AnimationSharing",
+   4
+  ],
+  [
+   "Project name does not match",
+   3
+  ],
+  [
+   "/Script/AkAudio",
+   3
+  ],
+  [
+   "AudioAnalyzerNRTPlugin",
+   3
+  ],
+  [
+   "NormalBlendMaterial",
+   3
+  ],
+  [
+   "MovieSceneMediaSectionTemplate",
+   3
+  ],
+  [
+   "Fail to get file name: %d",
+   2
+  ],
+  [
+   "Fail to extract file: %ls",
+   2
+  ],
+  [
+   "File info in file list error",
+   2
+  ],
+  [
+   "Pack version too new",
+   2
+  ],
+  [
+   "Pack version too old",
+   2
+  ],
+  [
+   "GenericCommands",
+   2
+  ],
+  [
+   "DIType",
+   2
+  ],
+  [
+   "/Script/NiagaraCore",
+   2
+  ]
+ ],
+ "keywords": {
+  "spine": 313,
+  "material": 265,
+  "skeleton": 45,
+  "vertex": 551,
+  "color": 193,
+  "pulse": 8,
+  "particle": 5064,
+  "fight": 0
+ },
+ "relevance": 2714,
+ "largest_functions": [
+  [
+   "0x68a24d4",
+   33868
+  ],
+  [
+   "0x659c998",
+   22180
+  ],
+  [
+   "0x6439934",
+   16936
+  ],
+  [
+   "0x73efe3c",
+   9708
+  ],
+  [
+   "0x6d954a0",
+   8168
+  ],
+  [
+   "0x63f2b9c",
+   7316
+  ],
+  [
+   "0x755b240",
+   5820
+  ],
+  [
+   "0x67bcb58",
+   5688
+  ],
+  [
+   "0x6426ca0",
+   5556
+  ],
+  [
+   "0x6370370",
+   5444
+  ],
+  [
+   "0x6c92d90",
+   4336
+  ],
+  [
+   "0x74c189c",
+   4276
+  ]
+ ]
+}

@@ -1,0 +1,293 @@
+{
+ "file": "part_000069.c",
+ "bytes": 8000003,
+ "functions": 6540,
+ "addr_min": "0x9b8dea0",
+ "addr_max": "0xb649a64",
+ "top_symbols": [
+  [
+   "physx",
+   1315
+  ],
+  [
+   "FMemory",
+   1157
+  ],
+  [
+   "FFrame",
+   840
+  ],
+  [
+   "UObject",
+   819
+  ],
+  [
+   "physx::shdfnd",
+   512
+  ],
+  [
+   "UE4CodeGen_Private",
+   429
+  ],
+  [
+   "shdfnd",
+   275
+  ],
+  [
+   "physx::Sn",
+   223
+  ],
+  [
+   "physx::profile::PxProfileWrapperReflectionAllocator<physx::Sn",
+   208
+  ],
+  [
+   "BuildPatchServices",
+   191
+  ],
+  [
+   "oo2",
+   165
+  ],
+  [
+   "FString",
+   122
+  ],
+  [
+   "FVector",
+   117
+  ],
+  [
+   "IConsoleManager",
+   116
+  ],
+  [
+   "FStructProperty",
+   110
+  ],
+  [
+   "UKismetMathLibrary",
+   108
+  ],
+  [
+   "AActor",
+   104
+  ],
+  [
+   "physx::Gu",
+   102
+  ],
+  [
+   "physx::Sc",
+   101
+  ],
+  [
+   "physx::Scb",
+   100
+  ],
+  [
+   "FName",
+   99
+  ],
+  [
+   "FFloatProperty",
+   99
+  ],
+  [
+   "UActorComponent",
+   98
+  ],
+  [
+   "physx::shdfnd::ReflectionAllocator<physx",
+   98
+  ],
+  [
+   "shdfnd::Foundation",
+   87
+  ]
+ ],
+ "symbol_total": 21061,
+ "strings_top": [
+  [
+   "/Script/Engine",
+   571
+  ],
+  [
+   "Engine",
+   369
+  ],
+  [
+   "Pure virtual not implemented (%s)",
+   8
+  ],
+  [
+   "FInputScaleBias",
+   7
+  ],
+  [
+   "X=%3.3f Y=%3.3f Z=%3.3f",
+   6
+  ],
+  [
+   "Y=%.2f",
+   5
+  ],
+  [
+   "PinFriendlyName",
+   5
+  ],
+  [
+   "X=%.2f",
+   4
+  ],
+  [
+   "Z=%.2f",
+   4
+  ],
+  [
+   "V(0)",
+   4
+  ],
+  [
+   "BuildPatchServices",
+   4
+  ],
+  [
+   "\\t, ",
+   3
+  ],
+  [
+   "ReflectionCaptureComponent",
+   3
+  ],
+  [
+   "SceneComponentInstanceData",
+   3
+  ],
+  [
+   "SkeletalMeshComponentEndPhysicsTickFunction",
+   3
+  ],
+  [
+   "Overlapping nothing",
+   2
+  ],
+  [
+   "Sweep",
+   2
+  ],
+  [
+   "Multi",
+   2
+  ],
+  [
+   "%s%s resulted in a NaN/INF in PHit!",
+   2
+  ],
+  [
+   "ServerMove: TimeStamp expired: %f, CurrentTimeStamp: %f, Character: %s",
+   2
+  ],
+  [
+   "3AD4DA9E-B101-41B6-A1D3-31AB4F02FBD6",
+   2
+  ],
+  [
+   "No input table provided",
+   2
+  ],
+  [
+   "SetChannelActorForDestroy: Channel %d. NetGUID <%s> Path: %s. Bits: %d",
+   2
+  ],
+  [
+   "requester",
+   2
+  ],
+  [
+   "value",
+   2
+  ],
+  [
+   "/Engine/Private/GpuSkinVertexFactory.ush",
+   2
+  ],
+  [
+   "RADIX_BITS",
+   2
+  ],
+  [
+   "THREAD_COUNT",
+   2
+  ],
+  [
+   "KEYS_PER_LOOP",
+   2
+  ],
+  [
+   "MAX_GROUP_COUNT",
+   2
+  ]
+ ],
+ "keywords": {
+  "spine": 5,
+  "material": 2142,
+  "skeleton": 55,
+  "vertex": 356,
+  "color": 347,
+  "pulse": 13,
+  "particle": 1584,
+  "fight": 0
+ },
+ "relevance": 5189,
+ "largest_functions": [
+  [
+   "0xa9dba40",
+   25752
+  ],
+  [
+   "0x9ecf13c",
+   9464
+  ],
+  [
+   "0xb1d2920",
+   8084
+  ],
+  [
+   "0xb2eb7c0",
+   7656
+  ],
+  [
+   "0xb37edb4",
+   7496
+  ],
+  [
+   "0x9ba4e04",
+   7072
+  ],
+  [
+   "0x9c802fc",
+   7040
+  ],
+  [
+   "0xb4ac27c",
+   6928
+  ],
+  [
+   "0xb32edcc",
+   6304
+  ],
+  [
+   "0xb58d52c",
+   6056
+  ],
+  [
+   "0x9f49530",
+   5668
+  ],
+  [
+   "0xb5c6a20",
+   5060
+  ]
+ ]
+}

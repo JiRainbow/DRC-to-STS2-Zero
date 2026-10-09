@@ -1,0 +1,103 @@
+# Dragon Raja png Archives Unpacker by Bigchillghost
+# script for QuickBMS http://quickbms.aluigi.org
+
+idstring "\xEF\x23\xCA\x4D"
+get EndOfFile long
+set Version long 0
+set EntrySize long 0x114
+get Skip long
+if Skip == 0x56A089B7
+	math Skip = 0x110
+else
+	idstring "\xB7\x89\xA0\x56"
+	math Version = 1
+	math EntrySize = 0x118
+	math Skip = 0x114
+endif
+math EndOfFile - Skip
+goto EndOfFile
+get Offset long
+math Offset ^ 0x62A4F9E1
+math Skip - 0xC
+goto Skip 0 SEEK_CUR
+get FileCount long
+goto Offset
+comtype zlib
+set Size long FileCount
+math Size * EntrySize
+putvarchr MEMORY_FILE Size 0
+log MEMORY_FILE 0 0
+append
+set i long 0
+for i = 0 < FileCount
+	get ZSize long
+	get Unknown long
+	math ZSize ^ 0x62A4F9E1
+	savepos Offset
+	clog MEMORY_FILE Offset ZSize EntrySize
+	goto ZSize 0 SEEK_CUR
+next i
+append
+
+get Path basename
+string Path + \
+goto 0 MEMORY_FILE
+
+for i = 0 < FileCount
+	getdstring RelName 0x100 MEMORY_FILE
+	set Name string ""
+	string Name p "%s%s" Path RelName
+	get Skip long MEMORY_FILE
+	get Offset long MEMORY_FILE
+	if Version == 1
+		get Skip long MEMORY_FILE
+	endif
+	get Size long MEMORY_FILE
+	get ZSize long MEMORY_FILE
+	get Skip long MEMORY_FILE
+	if ZSize == Size
+		log Name Offset Size
+	else
+		goto Offset
+		set RelOffset long Offset
+		get Signature long
+		if Signature == 0xF92D6B5C
+			comtype lz4
+			get isCompressed short
+			get maxCapacity long
+			get dstCapacity long
+			get OffsetCount long
+			set j long 0
+			for j = 0 < OffsetCount
+				get OffsetArray[j] long
+			next j
+			set chunkCount long OffsetCount
+			math chunkCount - 1
+			math j = 0
+			append
+			do
+				math Offset = OffsetArray[j]
+				math j + 1
+				math ZSize = OffsetArray[j]
+				math ZSize - Offset
+				math Offset + RelOffset
+				if chunkCount == j
+					math Size = dstCapacity
+				else
+					math Size = maxCapacity
+				endif
+				if Size != ZSize
+					clog Name Offset ZSize Size
+				else
+					log Name Offset Size
+				endif
+			while j < chunkCount
+			append
+		else
+			comtype zlib
+			clog Name Offset ZSize Size
+		endif
+	endif
+next i
+
+

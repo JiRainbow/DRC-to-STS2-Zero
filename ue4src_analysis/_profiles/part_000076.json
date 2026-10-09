@@ -1,0 +1,293 @@
+{
+ "file": "part_000076.c",
+ "bytes": 8039184,
+ "functions": 6944,
+ "addr_min": "0x9fb24d4",
+ "addr_max": "0xac6bd9c",
+ "top_symbols": [
+  [
+   "FMemory",
+   1814
+  ],
+  [
+   "FFrame",
+   1042
+  ],
+  [
+   "UObject",
+   995
+  ],
+  [
+   "UE4CodeGen_Private",
+   499
+  ],
+  [
+   "UWorld",
+   224
+  ],
+  [
+   "FName",
+   219
+  ],
+  [
+   "FGenericPlatformStricmp",
+   190
+  ],
+  [
+   "FMsg",
+   164
+  ],
+  [
+   "FShaderParametersMetadata",
+   164
+  ],
+  [
+   "FStructProperty",
+   154
+  ],
+  [
+   "FFloatProperty",
+   154
+  ],
+  [
+   "Freeze",
+   151
+  ],
+  [
+   "AActor",
+   150
+  ],
+  [
+   "IConsoleManager",
+   148
+  ],
+  [
+   "FMemoryImageAllocatorBase",
+   141
+  ],
+  [
+   "FString",
+   137
+  ],
+  [
+   "FVector",
+   136
+  ],
+  [
+   "UNetDriver",
+   121
+  ],
+  [
+   "UObjectBase",
+   115
+  ],
+  [
+   "FBodyInstance",
+   114
+  ],
+  [
+   "UKismetMathLibrary",
+   110
+  ],
+  [
+   "FWeakObjectPtr",
+   109
+  ],
+  [
+   "FViewUniformShaderParameters",
+   108
+  ],
+  [
+   "APlayerController",
+   103
+  ],
+  [
+   "FLockFreeLinkPolicy",
+   99
+  ]
+ ],
+ "symbol_total": 22044,
+ "strings_top": [
+  [
+   "/Script/Engine",
+   575
+  ],
+  [
+   "Engine",
+   425
+  ],
+  [
+   "/Script/InteractiveToolsFramework",
+   51
+  ],
+  [
+   "%s - %d: %s",
+   35
+  ],
+  [
+   "BASE",
+   13
+  ],
+  [
+   "DevOptions.Shaders",
+   12
+  ],
+  [
+   "MaterialExpression",
+   8
+  ],
+  [
+   "Utility",
+   8
+  ],
+  [
+   "StaticLightingSystem",
+   8
+  ],
+  [
+   "Pure virtual not implemented (%s)",
+   7
+  ],
+  [
+   "FastXml",
+   7
+  ],
+  [
+   "SamplerState",
+   6
+  ],
+  [
+   "Portal.BuildPatch",
+   6
+  ],
+  [
+   "Shader = CreateShader(ShaderIndex) Failed! ShaderIndex=%d, Platform=%d",
+   5
+  ],
+  [
+   "User aborted the parsing process",
+   5
+  ],
+  [
+   "Math",
+   4
+  ],
+  [
+   "bNeedsCPUAccess",
+   4
+  ],
+  [
+   "%s (DP%d)",
+   4
+  ],
+  [
+   "Texture3D",
+   4
+  ],
+  [
+   "nullrhi",
+   3
+  ],
+  [
+   "Tried to call DrawIndexedPrimitive with null IndexBuffer!",
+   3
+  ],
+  [
+   "Registering components with static lighting system",
+   3
+  ],
+  [
+   "RegisteringComponentsWithStaticLightingSystem",
+   3
+  ],
+  [
+   "Unregistering components with static lighting system",
+   3
+  ],
+  [
+   "UnregisteringComponentsWithStaticLightingSystem",
+   3
+  ],
+  [
+   "TimerExists called with a pending timer",
+   3
+  ],
+  [
+   "Count of callback executions",
+   3
+  ],
+  [
+   "StateMachineDebugData",
+   3
+  ],
+  [
+   "AnimBlueprintFunction",
+   3
+  ],
+  [
+   "RootMotionExtractionStep",
+   3
+  ]
+ ],
+ "keywords": {
+  "spine": 5,
+  "material": 3604,
+  "skeleton": 21,
+  "vertex": 1251,
+  "color": 632,
+  "pulse": 9,
+  "particle": 2820,
+  "fight": 0
+ },
+ "relevance": 9797,
+ "largest_functions": [
+  [
+   "0xa56bb28",
+   12276
+  ],
+  [
+   "0xa2a6d0c",
+   10484
+  ],
+  [
+   "0xa9ee8ac",
+   10192
+  ],
+  [
+   "0xab3d094",
+   7964
+  ],
+  [
+   "0xa5a745c",
+   7560
+  ],
+  [
+   "0xa413514",
+   7496
+  ],
+  [
+   "0xa44e86c",
+   7072
+  ],
+  [
+   "0xac6bd9c",
+   6836
+  ],
+  [
+   "0xa68d578",
+   5728
+  ],
+  [
+   "0xa34ad68",
+   5604
+  ],
+  [
+   "0xa38abd4",
+   5084
+  ],
+  [
+   "0x9fc5614",
+   4880
+  ]
+ ]
+}

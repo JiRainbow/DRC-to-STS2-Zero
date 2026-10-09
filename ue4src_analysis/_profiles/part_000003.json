@@ -1,0 +1,293 @@
+{
+ "file": "part_000003.c",
+ "bytes": 8000269,
+ "functions": 4792,
+ "addr_min": "0x62c1020",
+ "addr_max": "0x7245058",
+ "top_symbols": [
+  [
+   "FMemory",
+   1890
+  ],
+  [
+   "FName",
+   477
+  ],
+  [
+   "UObject",
+   423
+  ],
+  [
+   "FFrame",
+   304
+  ],
+  [
+   "FString",
+   208
+  ],
+  [
+   "UE4CodeGen_Private",
+   206
+  ],
+  [
+   "FWeakObjectPtr",
+   185
+  ],
+  [
+   "FNiagaraTypeDefinitionHandle",
+   181
+  ],
+  [
+   "FVector",
+   165
+  ],
+  [
+   "FNiagaraTypeDefinition",
+   162
+  ],
+  [
+   "UNiagaraDataInterfaceSkeletalMesh",
+   116
+  ],
+  [
+   "FNiagaraVariable",
+   115
+  ],
+  [
+   "std::__ndk1",
+   97
+  ],
+  [
+   "FMsg",
+   87
+  ],
+  [
+   "Audio",
+   86
+  ],
+  [
+   "SWidget",
+   83
+  ],
+  [
+   "Freeze",
+   80
+  ],
+  [
+   "NiagaraEmitterInstanceBatcher",
+   80
+  ],
+  [
+   "FDelegateHandle",
+   77
+  ],
+  [
+   "FLockFreeLinkPolicy",
+   72
+  ],
+  [
+   "TUNiagaraDataInterfaceSkeletalMesh_GetTriCoordSkinnedDataBinder",
+   70
+  ],
+  [
+   "FGenericPlatformString",
+   63
+  ],
+  [
+   "USkeletalMeshComponent",
+   61
+  ],
+  [
+   "AActor",
+   60
+  ],
+  [
+   "FShaderParametersMetadata",
+   60
+  ]
+ ],
+ "symbol_total": 11648,
+ "strings_top": [
+  [
+   "Engine",
+   134
+  ],
+  [
+   "/Script/Niagara",
+   86
+  ],
+  [
+   "/Script/AkAudio",
+   56
+  ],
+  [
+   "/Script/UMGCustom",
+   52
+  ],
+  [
+   "/Script/CoralSkillPlayer",
+   42
+  ],
+  [
+   "/Script/AzureFacility",
+   24
+  ],
+  [
+   "/Script/CoralAVGRuntime",
+   13
+  ],
+  [
+   "AkAudio",
+   12
+  ],
+  [
+   "/Script/AudioSynesthesia",
+   12
+  ],
+  [
+   "Composite shake is still active",
+   11
+  ],
+  [
+   "Audio Interface",
+   9
+  ],
+  [
+   "Audio Handle",
+   9
+  ],
+  [
+   "ArrayBufferSize_",
+   9
+  ],
+  [
+   "Array interface",
+   9
+  ],
+  [
+   "/Script/CoralMontage2DPlayer",
+   9
+  ],
+  [
+   "BASE",
+   7
+  ],
+  [
+   "Grid",
+   7
+  ],
+  [
+   "/Script/SpinePlugin",
+   7
+  ],
+  [
+   "/Script/NiagaraAnimNotifies",
+   6
+  ],
+  [
+   "Index",
+   4
+  ],
+  [
+   "Value",
+   4
+  ],
+  [
+   "Linear",
+   4
+  ],
+  [
+   "Shader = CreateShader(ShaderIndex) Failed! ShaderIndex=%d, Platform=%d",
+   4
+  ],
+  [
+   "Composite shake has ended",
+   4
+  ],
+  [
+   "/Script/TemplateSequence",
+   4
+  ],
+  [
+   "Parameter Name Index",
+   3
+  ],
+  [
+   "Parameter Value",
+   3
+  ],
+  [
+   "ArrayBuffer_",
+   3
+  ],
+  [
+   "NiagaraBakerTextureSettings",
+   3
+  ],
+  [
+   "NiagaraScalabilityState",
+   3
+  ]
+ ],
+ "keywords": {
+  "spine": 127,
+  "material": 259,
+  "skeleton": 25,
+  "vertex": 819,
+  "color": 282,
+  "pulse": 8,
+  "particle": 8780,
+  "fight": 0
+ },
+ "relevance": 2620,
+ "largest_functions": [
+  [
+   "0x6a84d94",
+   13700
+  ],
+  [
+   "0x6999558",
+   11772
+  ],
+  [
+   "0x65090fc",
+   11260
+  ],
+  [
+   "0x62cfb58",
+   9412
+  ],
+  [
+   "0x6be61b8",
+   8324
+  ],
+  [
+   "0x68b59f8",
+   8168
+  ],
+  [
+   "0x670e14c",
+   6988
+  ],
+  [
+   "0x6d32558",
+   6208
+  ],
+  [
+   "0x6adf468",
+   6076
+  ],
+  [
+   "0x6badcf0",
+   5796
+  ],
+  [
+   "0x6cca72c",
+   5396
+  ],
+  [
+   "0x69596dc",
+   5152
+  ]
+ ]
+}

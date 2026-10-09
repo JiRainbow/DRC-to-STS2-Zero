@@ -1,0 +1,293 @@
+{
+ "file": "part_000026.c",
+ "bytes": 8002641,
+ "functions": 3777,
+ "addr_min": "0x7324aa4",
+ "addr_max": "0x7fcc200",
+ "top_symbols": [
+  [
+   "FMemory",
+   2245
+  ],
+  [
+   "UObject",
+   434
+  ],
+  [
+   "Eigen",
+   316
+  ],
+  [
+   "UE4Function_Private",
+   294
+  ],
+  [
+   "FString",
+   283
+  ],
+  [
+   "FMsg",
+   226
+  ],
+  [
+   "FName",
+   210
+  ],
+  [
+   "FDynamicMesh3",
+   185
+  ],
+  [
+   "const",
+   154
+  ],
+  [
+   "FLazyName",
+   149
+  ],
+  [
+   "FReferenceChainSearch",
+   147
+  ],
+  [
+   "FGenericPlatformString",
+   130
+  ],
+  [
+   "std::__ndk1",
+   119
+  ],
+  [
+   "MeshAutoRepair::FComponentMesh>",
+   115
+  ],
+  [
+   "FFrame",
+   112
+  ],
+  [
+   "UE4CodeGen_Private",
+   106
+  ],
+  [
+   "FChunkDownloader",
+   90
+  ],
+  [
+   "MeshAutoRepair",
+   88
+  ],
+  [
+   "FAsyncPackage",
+   88
+  ],
+  [
+   "FSmallListSet",
+   78
+  ],
+  [
+   "FFbxErrors",
+   78
+  ],
+  [
+   "FRefCountVector",
+   73
+  ],
+  [
+   "FLockFreeLinkPolicy",
+   72
+  ],
+  [
+   "TextFormatTokens",
+   71
+  ],
+  [
+   "FWeakObjectPtr",
+   70
+  ]
+ ],
+ "symbol_total": 15068,
+ "strings_top": [
+  [
+   "Engine",
+   57
+  ],
+  [
+   "/Script/CoreUObject",
+   25
+  ],
+  [
+   "%s: The two values are not equal.",
+   23
+  ],
+  [
+   "/Script/OnlineSubsystemUtils",
+   23
+  ],
+  [
+   "/Script/Synthesis",
+   22
+  ],
+  [
+   "%s%s",
+   15
+  ],
+  [
+   "OSS: ",
+   14
+  ],
+  [
+   "Pure virtual not implemented (%s)",
+   9
+  ],
+  [
+   "OnlineSubsystem",
+   9
+  ],
+  [
+   "%s: %d",
+   7
+  ],
+  [
+   "default",
+   6
+  ],
+  [
+   "/Script/MobilePatchingUtils",
+   5
+  ],
+  [
+   "Internationalization",
+   5
+  ],
+  [
+   "MallocBinnedArena Corruption Canary was 0x%x, should be 0x%x",
+   4
+  ],
+  [
+   "Failed memory test at 0x%08x, wrote: 0x%08x, read: 0x%08x\\n",
+   4
+  ],
+  [
+   "CoreAsyncTaskNotification",
+   4
+  ],
+  [
+   "/Script/EditableMesh",
+   3
+  ],
+  [
+   "Stream %i\\n",
+   3
+  ],
+  [
+   "    MimeType: %s\\n",
+   3
+  ],
+  [
+   "    Language: %s\\n",
+   3
+  ],
+  [
+   "SynthComponentMonoWaveTable",
+   3
+  ],
+  [
+   "SynthKnobStyle",
+   3
+  ],
+  [
+   "LittleCore Affinity applying mask: 0x%0x",
+   3
+  ],
+  [
+   " - ",
+   3
+  ],
+  [
+   "ExpressionParser",
+   3
+  ],
+  [
+   "Error opening file \\'%s\\'.",
+   3
+  ],
+  [
+   "\\t\\t",
+   3
+  ],
+  [
+   "Attributes:%s",
+   2
+  ],
+  [
+   "TcpMessagingListen=",
+   2
+  ],
+  [
+   "/Script/ActorSequence",
+   2
+  ]
+ ],
+ "keywords": {
+  "spine": 0,
+  "material": 59,
+  "skeleton": 4,
+  "vertex": 932,
+  "color": 131,
+  "pulse": 0,
+  "particle": 247,
+  "fight": 0
+ },
+ "relevance": 1994,
+ "largest_functions": [
+  [
+   "0x7ec3000",
+   12716
+  ],
+  [
+   "0x7f422dc",
+   10880
+  ],
+  [
+   "0x7484a40",
+   8080
+  ],
+  [
+   "0x7b95270",
+   7524
+  ],
+  [
+   "0x7dc8108",
+   6916
+  ],
+  [
+   "0x760c238",
+   5556
+  ],
+  [
+   "0x73f7d78",
+   4888
+  ],
+  [
+   "0x7df63d0",
+   4760
+  ],
+  [
+   "0x7daf964",
+   4672
+  ],
+  [
+   "0x7e7471c",
+   4528
+  ],
+  [
+   "0x7a65c80",
+   4280
+  ],
+  [
+   "0x79a335c",
+   4276
+  ]
+ ]
+}

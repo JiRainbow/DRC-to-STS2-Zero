@@ -1,0 +1,17 @@
+78098b89c88a74ebe8c20117b8754620
+::res://::1791527525
+::res://ling/::1791527524
+::res://ling/animations/::1791527524
+::res://ling/animations/characters/::1791527524
+::res://ling/animations/characters/silent/::1791527524
+Chr_ling001.png::CompressedTexture2D::7670384119780708033::1791527524::1791527531::1::::<><><>0<>0<>2ff0c06efa6277b6f76d1c9dd69e9351<>res://.godot/imported/Chr_ling001.png-72aa7f3f768c218e0a6ca07e91af047e.ctex::
+::res://pdling/::1791527524
+pdchar_page1.png::CompressedTexture2D::3588423666921936466::1791527524::1791527532::1::::<><><>0<>0<>7b3a04778da2f7cbab53d7723dd926f8<>res://.godot/imported/pdchar_page1.png-f16450b73780950b0ecad2ba97894b58.ctex::
+pdchar_page2.png::CompressedTexture2D::75484425333421493::1791527524::1791527532::1::::<><><>0<>0<>47a2a4b07d1b1b26e5ebcd9da588adf6<>res://.godot/imported/pdchar_page2.png-5572ac38138bdbd9e3010dfd9fc59189.ctex::
+spd_page1.png::CompressedTexture2D::4509009840179276190::1791527524::1791527532::1::::<><><>0<>0<>0c508e76332b9c9b4a629119db98bea6<>res://.godot/imported/spd_page1.png-20d824c1b9df298c5bff415fdc2fb552.ctex::
+spd_page2.png::CompressedTexture2D::7314747847590317879::1791527524::1791527532::1::::<><><>0<>0<>f168bc4d78aaf9e5d67d2e76e3eee71e<>res://.godot/imported/spd_page2.png-e8e6406d52e3119bb3c2fbea04b5d3e7.ctex::
+spd_page3.png::CompressedTexture2D::901598261591555930::1791527524::1791527531::1::::<><><>0<>0<>66a8e8bf8127b4d55db9c07f04d17daa<>res://.godot/imported/spd_page3.png-ab66ef9ec0d2780eeb284c0852d1f952.ctex::
+::res://uiart/::1791527524
+character_icon_silent.png::CompressedTexture2D::6515231158980132070::1791527524::1791527531::1::::<><><>0<>0<>1fa2da6e79fc018d52f2918d62cc9c90<>res://.godot/imported/character_icon_silent.png-a39ca9c4494a513c00f5d81772456600.ctex::
+character_select_silent_bg.png::CompressedTexture2D::8874646694681166098::1791527524::1791527531::1::::<><><>0<>0<>c2070da1665d538c3546da9d24493962<>res://.godot/imported/character_select_silent_bg.png-27c856dfd547b0625563036ffed7d31f.ctex::
+char_select_silent.png::CompressedTexture2D::7532573278039930345::1791527524::1791527531::1::::<><><>0<>0<>3672727396721db581ab27568db82dd6<>res://.godot/imported/char_select_silent.png-68ca43a15e9e9692fd6dae29db1d4a42.ctex::

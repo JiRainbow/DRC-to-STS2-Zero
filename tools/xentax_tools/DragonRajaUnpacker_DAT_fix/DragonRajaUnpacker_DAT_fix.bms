@@ -1,0 +1,76 @@
+# Dragon Raja dat Archives Unpacker by Bigchillghost
+# script for QuickBMS http://quickbms.aluigi.org
+
+open FDSE "saved_download_entry.dat" 0
+get EndOfFile asize
+set openedID long -1
+set status long 0
+set ArcName string ""
+do
+	get Len short
+	getdstring assetName Len
+	goto 0x10 0 SEEK_CUR
+	get Offset long
+	get ZSize long
+	get ArcID byte
+	get Skip short
+	if ArcID != openedID
+		string ArcName p "iguf_%02d.dat" ArcID
+		math openedID = ArcID
+		open FDSE ArcName 1 status
+	endif
+	if status == 1
+		goto Offset 1
+		idstring 1 "\x58\xAF\x5A\x00"
+		set Name string ""
+		string Name p "Unpacked/%s" assetName
+		get Size long 1
+		math ZSize - 8
+		savepos RelOffset 1
+		if ZSize == Size
+			log Name RelOffset Size 1
+		else
+			get check long 1
+			if check != 0xF92D6B5C
+				comtype zlib
+				clog Name RelOffset Zsize Size 1
+			else
+				comtype lz4
+				get isCompressed short 1
+				get chunkCapacity long 1
+				get remainCapacity long 1
+				get OffsetCount long 1
+				set i long 0
+				for i = 0 < OffsetCount
+					get OffsetArray[i] long 1
+				next i
+				set chunkCount long OffsetCount
+				math chunkCount - 1
+				math i = 0
+				putvarchr MEMORY_FILE Size 0
+				log MEMORY_FILE 0 0
+				append
+				do
+					math Offset = OffsetArray[i]
+					math i + 1
+					set ZipSize long OffsetArray[i]
+					math ZipSize - Offset
+					math Offset + RelOffset
+					if chunkCount == i
+						set UnzipSize long remainCapacity
+					else
+						set UnzipSize long chunkCapacity
+					endif
+					if UnzipSize != ZipSize
+						clog MEMORY_FILE Offset ZipSize UnzipSize 1
+					else
+						log MEMORY_FILE Offset UnzipSize 1
+					endif
+				while i < chunkCount
+				append
+				log Name 0 Size MEMORY_FILE
+			endif
+		endif
+	endif
+	savepos CurPos
+while CurPos < EndOfFile

@@ -1,0 +1,171 @@
+{
+  "filter": "ling.json",
+  "materials": {
+    "normal": "res://drc_dye/profiles/ling/animations/characters/silent/ling_holo_material_mix.tres",
+    "additive": "res://drc_dye/profiles/ling/animations/characters/silent/ling_holo_material_add.tres",
+    "multiply": "res://drc_dye/profiles/ling/animations/characters/silent/ling_holo_material_mul.tres",
+    "screen": "res://drc_dye/profiles/ling/animations/characters/silent/ling_holo_material_sub.tres"
+  },
+  "shader_parameters": {},
+  "dissolve_material": "res://drc_dye/profiles/ling/animations/characters/silent/ling_dissolve_material_mix.tres",
+  "death": {
+    "anim": "die",
+    "duration": 2.05,
+    "restore_after": false
+  },
+  "shadow": {
+    "enabled": true,
+    "mode": "silhouette",
+    "material": "res://drc_dye/profiles/ling/animations/characters/silent/ling_shadow_material_sil.tres",
+    "debug_red": false,
+    "oblique_deg": 45.0,
+    "len_scale": 0.35,
+    "scale_x": 1.0,
+    "opacity": 0.6,
+    "feet_nudge_y": 0.0,
+    "texture": "res://drc_dye/profiles/ling/animations/characters/silent/shadow_blob.png",
+    "size": [
+      190.0,
+      52.0
+    ],
+    "offset_y": 6.0,
+    "alpha": 0.55,
+    "ground_offset_y": -7.0,
+    "disable_scene_keywords": [
+      "restsite"
+    ],
+    "staged_scale": 0.608,
+    "staged_dy": 184.0
+  },
+  "fx": {
+    "enabled": false,
+    "texture": "res://drc_dye/profiles/ling/animations/characters/silent/fx_dot.png",
+    "amount": 1440,
+    "area": [
+      130.0,
+      210.0
+    ],
+    "offset_y": 0.0,
+    "body_scale": 1.0
+  },
+  "win": {
+    "anim": "win",
+    "loop": "winloop"
+  },
+  "entrance": {
+    "anim": "tibu",
+    "then": "idle_loop"
+  },
+  "hit_flash": {
+    "enabled": true,
+    "color": [
+      0.9216,
+      0.0319,
+      0.0762
+    ],
+    "peak": 0.85,
+    "decay": 0.18
+  },
+  "attack_fx": {
+    "enabled": true,
+    "bone": "bone104",
+    "muzzle_len": 50.0,
+    "anims": [
+      "attack"
+    ],
+    "bursts": [
+      0.0
+    ],
+    "scale": 1.0,
+    "textures": [
+      "res://drc_dye/profiles/ling/animations/characters/silent/fx_shard_a.png",
+      "res://drc_dye/profiles/ling/animations/characters/silent/fx_shard_b.png",
+      "res://drc_dye/profiles/ling/animations/characters/silent/fx_shard_c.png",
+      "res://drc_dye/profiles/ling/animations/characters/silent/fx_shard_d.png",
+      "res://drc_dye/profiles/ling/animations/characters/silent/fx_shard_e.png",
+      "res://drc_dye/profiles/ling/animations/characters/silent/fx_shard_f.png"
+    ],
+    "streak_texture": "res://drc_dye/profiles/ling/animations/characters/silent/fx_streak.png",
+    "color_a": [
+      0.29,
+      0.69,
+      1.0
+    ],
+    "color_b": [
+      0.54,
+      0.37,
+      1.0
+    ],
+    "fade_to": [
+      0.37,
+      0.85,
+      1.0
+    ],
+    "sparks": {
+      "amount": 1,
+      "life": 0.2,
+      "speed": [
+        260.0,
+        560.0
+      ],
+      "size": [
+        16.0,
+        36.0
+      ],
+      "spread": 14.0,
+      "damping": 7.0
+    },
+    "streak": {
+      "amount": 2,
+      "life": 0.12,
+      "alpha": 0.9,
+      "size": [
+        85.0
+      ]
+    }
+  },
+  "hit_fx": {
+    "enabled": true,
+    "anims": [
+      "hurt"
+    ],
+    "offset_y": -20.0,
+    "scale": 1.0,
+    "textures": [
+      "res://drc_dye/profiles/ling/animations/characters/silent/fx_shard_a.png",
+      "res://drc_dye/profiles/ling/animations/characters/silent/fx_shard_b.png",
+      "res://drc_dye/profiles/ling/animations/characters/silent/fx_shard_c.png",
+      "res://drc_dye/profiles/ling/animations/characters/silent/fx_shard_d.png",
+      "res://drc_dye/profiles/ling/animations/characters/silent/fx_shard_e.png",
+      "res://drc_dye/profiles/ling/animations/characters/silent/fx_shard_f.png"
+    ],
+    "color_a": [
+      0.29,
+      0.69,
+      1.0
+    ],
+    "color_b": [
+      0.54,
+      0.37,
+      1.0
+    ],
+    "fade_to": [
+      0.37,
+      0.85,
+      1.0
+    ],
+    "sparks": {
+      "amount": 1,
+      "life": 0.32,
+      "speed": [
+        200.0,
+        430.0
+      ],
+      "size": [
+        12.0,
+        30.0
+      ],
+      "damping": 6.0
+    }
+  }
+}

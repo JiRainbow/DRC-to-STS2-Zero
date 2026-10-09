@@ -1,0 +1,271 @@
+addr,size,note
+0xb81012c,272,ICU CurrencyPluralInfoAffixProvider::setTo - currency plural affix init
+0xb810770,24,ICU affix provider length()
+0xb8107a0,16,ICU positiveHasPlusSign
+0xb8107b0,16,ICU hasNegativeSubpattern
+0xb810800,84,ICU ~PropertiesAffixPatternProvider
+0xb810a84,148,ICU Scale
+0xb810f6c,268,ICU byDoubleAndPowerOfTen (decimal scaling)
+0xb811a0c,96,ICU notation getter
+0xb811c34,20,ICU signDisplay getter
+0xb8120a4,328,ICU signDisplay setter/parse
+0xb8141c8,392,ICU parseDigitsStem (number format parse)
+0xb815108,360,ICU parseNumberingSystemOption
+0xb815bb0,472,ICU unit option parse
+0xb816914,196,ICU generateDigitsStem
+0xb816d94,12,ICU getDynamicClassID
+0xb816df8,68,ICU percent format
+0xb8170b0,6108,ICU double-conversion StringToIeee (strtod core, 6KB)
+0xb83d7ec,432,unnamed, FreeType-region helper
+0xb83d99c,556,unnamed, FreeType-region helper
+0xb83e668,404,unnamed, FreeType-region helper
+0xb83f01c,1180,unnamed, ushort-table walker (FT/outline helper)
+0xb840c48,172,unnamed, FreeType-region helper
+0xb840cf4,496,unnamed, FreeType-region helper
+0xb841540,28,FT_Outline_GetInsideBorder
+0xb84155c,28,FT_Outline_GetOutsideBorder
+0xb841578,188,FT_Stroker_New
+0xb841694,172,FT_Stroker_Done
+0xb841ca0,3336,FT_Stroker_ConicTo (conic stroke segmentation, 3.3KB)
+0xb853980,44,FreeType_stroker/internals
+0xb853ce8,80,FreeType_stroker/internals
+0xb85424c,4,FreeType_stroker/internals
+0xb854250,12,FreeType_stroker/internals
+0xb854598,1208,unnamed 1.2KB, byte/short buffer transform (FT-region)
+0xb861644,292,FreeType_stroker/internals
+0xb86883c,556,FreeType_stroker/internals
+0xb868f90,852,FreeType_stroker/internals
+0xb86a278,1204,FreeType_stroker/internals
+0xb86c638,1040,FreeType_stroker/internals
+0xb86e0b4,604,FreeType_stroker/internals
+0xb86e610,564,FreeType_stroker/internals
+0xb86f248,36,FreeType_stroker/internals
+0xb86f26c,44,FreeType_stroker/internals
+0xb86f298,276,FreeType_stroker/internals
+0xb86f460,4,FreeType_stroker/internals
+0xb86f464,8,FreeType_stroker/internals
+0xb86f46c,660,FreeType_stroker/internals
+0xb870cec,404,FreeType_stroker/internals
+0xb871b28,88,FreeType_stroker/internals
+0xb871b80,504,FreeType_stroker/internals
+0xb8723b4,36,FreeType_stroker/internals
+0xb8723d8,40,FreeType_stroker/internals
+0xb872450,148,FreeType_stroker/internals
+0xb872af4,36,FreeType_stroker/internals
+0xb872c50,652,FreeType_stroker/internals
+0xb874cdc,16,FreeType_stroker/internals
+0xb874d3c,3912,FreeType_stroker/internals
+0xb88eca8,120,FreeType_stroker/internals
+0xb88ed20,240,FreeType_stroker/internals
+0xb88fe60,528,FreeType_stroker/internals
+0xb8906f8,56,FreeType_stroker/internals
+0xb8907dc,96,FreeType_stroker/internals
+0xb890b94,88,FreeType_stroker/internals
+0xb890c84,1108,FreeType_stroker/internals
+0xb893af0,228,FreeType_stroker/internals
+0xb893c40,620,FreeType_stroker/internals
+0xb8949d8,296,FreeType_stroker/internals
+0xb894d38,136,FreeType_stroker/internals
+0xb895790,1100,FreeType_stroker/internals
+0xb897b3c,296,FreeType_stroker/internals
+0xb897c64,112,FreeType_stroker/internals
+0xb897d14,128,FreeType_stroker/internals
+0xb897ed0,108,FreeType_stroker/internals
+0xb897f3c,108,FreeType_stroker/internals
+0xb897fa8,44,FreeType_stroker/internals
+0xb897fd4,144,FreeType_stroker/internals
+0xb89813c,320,FreeType_stroker/internals
+0xb898ba4,1044,FreeType_stroker/internals
+0xb89b3d8,684,FreeType_stroker/internals
+0xb89bc0c,96,hb_buffer_create
+0xb89bd3c,200,HarfBuzz_OT_AAT
+0xb89be98,8,HarfBuzz_OT_AAT
+0xb89beb0,8,HarfBuzz_OT_AAT
+0xb89bed0,24,HarfBuzz_OT_AAT
+0xb89bf20,8,HarfBuzz_OT_AAT
+0xb89bf38,8,HarfBuzz_OT_AAT
+0xb89bf50,8,HarfBuzz_OT_AAT
+0xb89bfe0,8,HarfBuzz_OT_AAT
+0xb89bfe8,144,HarfBuzz_OT_AAT
+0xb89c2e0,288,HarfBuzz_OT_AAT
+0xb89cd8c,472,HarfBuzz_OT_AAT
+0xb89d08c,204,HarfBuzz_OT_AAT
+0xb89d640,412,HarfBuzz_OT_AAT
+0xb89e588,284,HarfBuzz_OT_AAT
+0xb8a4f84,240,HarfBuzz_OT_AAT
+0xb8a5664,452,HarfBuzz_OT_AAT
+0xb8a5948,196,HarfBuzz_OT_AAT
+0xb8a6488,484,HarfBuzz_OT_AAT
+0xb8a6898,1008,HarfBuzz_OT_AAT
+0xb8a7bec,140,HarfBuzz_OT_AAT
+0xb8a7dcc,180,HarfBuzz_OT_AAT
+0xb8a81d0,44,HarfBuzz_OT_AAT
+0xb8a82f8,292,HarfBuzz_OT_AAT
+0xb8a8c0c,208,HarfBuzz_OT_AAT
+0xb8a8ef4,300,HarfBuzz_OT_AAT
+0xb8a9830,236,HarfBuzz_OT_AAT
+0xb8a9d64,160,HarfBuzz_OT_AAT
+0xb8aa064,360,HarfBuzz_OT_AAT
+0xb8aa90c,72,HarfBuzz_OT_AAT
+0xb8aaa30,824,HarfBuzz_OT_AAT
+0xb8ab3fc,260,HarfBuzz_OT_AAT
+0xb8ab924,260,HarfBuzz_OT_AAT
+0xb8abe88,228,HarfBuzz_OT_AAT
+0xb8ac574,348,HarfBuzz_OT_AAT
+0xb8ac9d4,304,HarfBuzz_OT_AAT
+0xb8ad498,344,HarfBuzz_OT_AAT
+0xb8ae930,376,HarfBuzz_OT_AAT
+0xb8af0a0,220,HarfBuzz_OT_AAT
+0xb8af8cc,424,HarfBuzz_OT_AAT
+0xb8b0838,668,HarfBuzz_OT_AAT
+0xb8b2164,464,HarfBuzz_OT_AAT
+0xb8b2d48,500,HarfBuzz_OT_AAT
+0xb8b328c,264,HarfBuzz_OT_AAT
+0xb8b3564,292,HarfBuzz_OT_AAT
+0xb8b3cf4,504,HarfBuzz_OT_AAT
+0xb8b56a8,524,HarfBuzz_OT_AAT
+0xb8b6708,972,HarfBuzz_OT_AAT
+0xb8b7e9c,660,HarfBuzz_OT_AAT
+0xb8b8818,1196,HarfBuzz_OT_AAT
+0xb8b9f3c,404,HarfBuzz_OT_AAT
+0xb8ba7e4,548,HarfBuzz_OT_AAT
+0xb8bad50,264,HarfBuzz_OT_AAT
+0xb8bb028,904,HarfBuzz_OT_AAT
+0xb8bc610,692,HarfBuzz_OT_AAT
+0xb8bd268,2468,HarfBuzz_OT_AAT
+0xb8c2068,396,HarfBuzz_OT_AAT
+0xb8c2258,56,HarfBuzz_OT_AAT
+0xb8c233c,56,HarfBuzz_OT_AAT
+0xb8c2418,216,HarfBuzz_OT_AAT
+0xb8c2b48,276,HarfBuzz_OT_AAT
+0xb8c2d1c,120,HarfBuzz_OT_AAT
+0xb8c2f3c,400,HarfBuzz_OT_AAT
+0xb8c3aa8,280,HarfBuzz_OT_AAT
+0xb8c3e24,44,HarfBuzz_OT_AAT
+0xb8c4064,8,HarfBuzz_OT_AAT
+0xb8c406c,496,HarfBuzz_OT_AAT
+0xb8c4674,564,HarfBuzz_OT_AAT
+0xb8c51b0,840,HarfBuzz_OT_AAT
+0xb8c6584,4,HarfBuzz_OT_AAT
+0xb8c6588,148,HarfBuzz_OT_AAT
+0xb8c6cf4,192,HarfBuzz_OT_AAT
+0xb8c7d64,1216,HarfBuzz_OT_AAT
+0xb8c9c44,760,AAT::StateTableDriver::drive<KerxSubTableFormat1> (kerx kerning state machine)
+0xb8ca7c8,280,HarfBuzz_OT_AAT
+0xb8ca8e0,1008,HarfBuzz_OT_AAT
+0xb8cb26c,216,HarfBuzz_OT_AAT
+0xb8cb540,184,HarfBuzz_OT_AAT
+0xb8cbca8,264,HarfBuzz_OT_AAT
+0xb8cc2f0,804,HarfBuzz_OT_AAT
+0xb8cdd74,28,HarfBuzz_OT_AAT
+0xb8ce000,564,HarfBuzz_OT_AAT
+0xb8cf750,264,HarfBuzz_OT_AAT
+0xb8cf9ec,288,HarfBuzz_OT_AAT
+0xb8d00f0,304,HarfBuzz_OT_AAT
+0xb8d0dfc,348,HarfBuzz_OT_AAT
+0xb8d17d8,916,OT::SingleSubstFormat2::closure (GSUB closure)
+0xb8d3824,452,HarfBuzz_OT_AAT
+0xb8d40bc,516,HarfBuzz_OT_AAT
+0xb8d4fa8,352,HarfBuzz_OT_AAT
+0xb8d584c,380,HarfBuzz_OT_AAT
+0xb8d6118,328,HarfBuzz_OT_AAT
+0xb8d6f84,212,HarfBuzz_OT_AAT
+0xb8d7660,580,HarfBuzz_OT_AAT
+0xb8d87e8,372,HarfBuzz_OT_AAT
+0xb8d9974,588,HarfBuzz_OT_AAT
+0xb8dad20,824,HarfBuzz_OT_AAT
+0xb8dc400,368,HarfBuzz_OT_AAT
+0xb8ddf0c,4,HarfBuzz_OT_AAT
+0xb8de8b4,404,HarfBuzz_OT_AAT
+0xb8df154,352,HarfBuzz_OT_AAT
+0xb8e0460,516,HarfBuzz_OT_AAT
+0xb8e1300,716,HarfBuzz_OT_AAT
+0xb8e30e0,548,HarfBuzz_OT_AAT
+0xb8e4020,300,HarfBuzz_OT_AAT
+0xb8e4378,280,HarfBuzz_OT_AAT
+0xb8e4890,276,HarfBuzz_OT_AAT
+0xb8e54cc,316,HarfBuzz_OT_AAT
+0xb8e6f18,648,HarfBuzz_OT_AAT
+0xb8e7c8c,64,HarfBuzz_OT_AAT
+0xb8e7cd8,20,HarfBuzz_OT_AAT
+0xb8e7d34,328,HarfBuzz_OT_AAT
+0xb8e876c,232,HarfBuzz_OT_AAT
+0xb8e8bb4,296,HarfBuzz_OT_AAT
+0xb8e92c4,548,HarfBuzz_OT_AAT
+0xb8eaab8,748,HarfBuzz_OT_AAT
+0xb8ec778,772,HarfBuzz_OT_AAT
+0xb8ed5e0,1012,HarfBuzz_OT_AAT
+0xb8ef8f4,316,HarfBuzz_OT_AAT
+0xb8efe68,496,HarfBuzz_OT_AAT
+0xb8f12b8,848,HarfBuzz_OT_AAT
+0xb8f3938,280,HarfBuzz_OT_AAT
+0xb8f3a50,564,HarfBuzz_OT_AAT
+0xb8f433c,324,HarfBuzz_OT_AAT
+0xb8f54b0,48,HarfBuzz_OT_AAT
+0xb8f5520,868,HarfBuzz_OT_AAT
+0xb8f8b58,160,HarfBuzz_OT_AAT
+0xb8f99f4,100,HarfBuzz_OT_AAT
+0xb8f9a58,2328,unnamed 2.3KB, hb_ot shape internals (font/buffer in, SubstLookup out)
+0xb909be4,124,HarfBuzz_OT_AAT
+0xb90a4a8,844,HarfBuzz_OT_AAT
+0xb90aeac,260,HarfBuzz_OT_AAT
+0xb90b45c,220,HarfBuzz_OT_AAT
+0xb90b7e8,352,HarfBuzz_OT_AAT
+0xb90beb8,92,HarfBuzz_OT_AAT
+0xb90bf44,164,HarfBuzz_OT_AAT
+0xb90c8d8,24,HarfBuzz_OT_AAT
+0xb90ce14,24,HarfBuzz_OT_AAT
+0xb90ce44,552,HarfBuzz_OT_AAT
+0xb90eb8c,968,HarfBuzz_OT_AAT
+0xb90f858,184,HarfBuzz_OT_AAT
+0xb90fb58,12,HarfBuzz_OT_AAT
+0xb90fb64,16,HarfBuzz_OT_AAT
+0xb90fb74,36,HarfBuzz_OT_AAT
+0xb90fb98,8,HarfBuzz_OT_AAT
+0xb90fba0,8,HarfBuzz_OT_AAT
+0xb90fba8,8,HarfBuzz_OT_AAT
+0xb90fbb0,8,HarfBuzz_OT_AAT
+0xb90fbb8,12,HarfBuzz_OT_AAT
+0xb90fbc4,8,HarfBuzz_OT_AAT
+0xb90fbcc,8,HarfBuzz_OT_AAT
+0xb90fbd4,8,HarfBuzz_OT_AAT
+0xb90fbdc,256,HarfBuzz_OT_AAT
+0xb90fed8,116,HarfBuzz_OT_AAT
+0xb9100a8,116,HarfBuzz_OT_AAT
+0xb910200,80,HarfBuzz_OT_AAT
+0xb9103dc,252,HarfBuzz_OT_AAT
+0xb910824,48,png_reset_crc
+0xb910854,128,libpng
+0xb910b6c,84,libpng
+0xb910c48,1068,libpng
+0xb912a24,272,libpng
+0xb912f34,268,libpng
+0xb9132b8,460,libpng
+0xb9138c8,1628,libpng
+0xb919590,208,libpng
+0xb91b424,1404,libpng
+0xb922010,324,libpng
+0xb922988,688,libpng
+0xb923fac,284,libpng
+0xb9247cc,288,libpng
+0xb925110,788,libpng
+0xb9269e8,152,libpng
+0xb926ca8,716,libpng
+0xb92b150,2304,libpng
+0xb94532c,24,libvorbis_encode
+0xb945344,132,libvorbis_encode
+0xb9453c8,52,libvorbis_encode
+0xb9453fc,512,libvorbis_encode
+0xb9464e4,28,libvorbis_encode
+0xb946500,28,libvorbis_encode
+0xb946998,616,libvorbis_encode
+0xb9486d4,456,libvorbis_encode
+0xb949d24,9108,vorbis_encode_setup_init (9KB encoder setup)
+0xb98213c,228,SILK_Opus_encode
+0xb982220,136,SILK_Opus_encode
+0xb9822a8,992,SILK_Opus_encode
+0xb982d40,1124,SILK_Opus_encode
+0xb9831a4,332,SILK_Opus_encode
+0xb9832f0,72,SILK_Opus_encode
+0xb983338,352,SILK_Opus_encode
+0xb983498,6100,silk_pitch_analysis_core (6KB pitch search)

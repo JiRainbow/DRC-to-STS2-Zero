@@ -1,0 +1,179 @@
+﻿addr,size,remark
+0xb88b7fc,20,FUN_0b88b7fc | FreeType 微小setter：对象+0x21c 写 0xffffffff
+0xb88b810,520,FUN_0b88b810 | FreeType avar 表加载（大端 'avar' 魔数，轴映射对解析+分配）
+0xb88bbc0,1320,FUN_0b88bbc0 | FreeType 未具名（fvar/avar 变体轴处理）
+0xb88cd0c,364,FUN_0b88cd0c | FreeType 未具名（变体坐标钳制/范围计算）
+0xb88d020,272,FUN_0b88d020 | FreeType 未具名（被最大函数 0xb88d20c 调用）
+0xb88d130,148,FUN_0b88d130 | FreeType 属性 set：interpreter-version（仅接受 35/40）
+0xb88d1c4,72,FUN_0b88d1c4 | FreeType 属性 get：interpreter-version
+0xb88d20c,5832,FUN_0b88d20c | FreeType TrueType 变体/解释器大函数（本文件最大，MM/Var 设计值应用）
+0xb925424,436,png_handle_unknown | libpng png_handle_unknown：未知 chunk 处理+缓存
+0xb925cf4,972,png_do_read_interlace | libpng png_do_read_interlace：Adam7 隔行扫描展开
+0xb9276d0,208,png_set_IHDR | libpng png_set_IHDR：写基本头信息
+0xb927d74,32,png_set_pHYs | libpng png_set_pHYs：物理分辨率块
+0xb927d94,292,png_set_PLTE | libpng png_set_PLTE：调色板块
+0xb9285f4,420,png_set_sPLT | libpng png_set_sPLT：suggested palette 块
+0xb928dbc,360,png_check_keyword | libpng png_check_keyword：关键字合法性校验
+0xb92997c,12,png_get_user_transform_ptr | libpng png_get_user_transform_ptr
+0xb9299b0,36,png_write_data | libpng png_write_data：写数据回调
+0xb929a90,336,png_write_info_before_PLTE | libpng png_write_info_before_PLTE
+0xb92aa0c,12,png_set_compression_level | libpng png_set_compression_level
+0xb92aa3c,92,png_set_compression_window_bits | libpng png_set_compression_window_bits
+0xb92aba4,24,png_set_write_user_transform_fn | libpng png_set_write_user_transform_fn
+0xb92afec,68,FUN_0b92afec | 未具名（libpng 邻接小函数）
+0xb92bc14,92,FUN_0b92bc14 | 未具名（libpng 邻接）
+0xb92bc70,4,FUN_0b92bc70 | 未具名（4字节 stub，返回0类）
+0xb92bc74,372,FUN_0b92bc74 | 未具名（libpng 邻接）
+0xb92cc38,340,png_write_chunk | libpng png_write_chunk：chunk 写出+CRC
+0xb92dc30,208,png_write_IEND | libpng png_write_IEND
+0xb92ddf0,268,png_write_sRGB | libpng png_write_sRGB
+0xb92e820,340,png_write_cHRM_fixed | libpng png_write_cHRM_fixed：色度块
+0xb92eedc,328,png_write_eXIf | libpng png_write_eXIf：EXIF 块
+0xb92f330,604,png_write_zTXt | libpng
+0xb931778,56,png_read_filter_row_sub4_neon | libpng
+0xb931838,80,png_read_filter_row_avg4_neon | libpng
+0xb9319f4,312,png_read_filter_row_paeth4_neon | libpng
+0xb935870,528,FUN_0b935870
+0xb936704,100,vorbis_synthesis_pcmout | libvorbis
+0xb936798,688,vorbis_synthesis_lapout | libvorbis
+0xb93745c,228,_ve_envelope_mark | vorbis/CELT DSP
+0xb9375b0,12,vorbis_comment_init | libvorbis
+0xb93766c,140,vorbis_comment_add_tag | libvorbis
+0xb937834,288,vorbis_comment_query_count | libvorbis
+0xb938378,144,vorbis_commentheader_out | libvorbis
+0xb938bb0,68,vorbis_granule_time | libvorbis
+0xb938bf4,12,vorbis_version_string | libvorbis
+0xb938c00,904,vorbis_staticbook_pack | libvorbis
+0xb939e54,260,vorbis_lpc_predict | libvorbis
+0xb93a694,64,mdct_clear | vorbis/CELT DSP
+0xb93a6d4,1068,mdct_backward | vorbis/CELT DSP
+0xb93c070,4420,FUN_0b93c070
+0xb98edd4,380,silk_warped_LPC_analysis_filter_FIX | Opus SILK
+0xb98f354,940,silk_process_gains_FIX | Opus SILK
+0xb990b1c,192,silk_inner_prod_aligned_scale | Opus SILK
+0xb990bdc,408,silk_stereo_quant_pred | Opus SILK
+0xb990d74,164,silk_stereo_encode_pred | Opus SILK
+0xb990e2c,8,opus_repacketizer_get_size | Opus
+0xb990e34,8,opus_repacketizer_init | Opus
+0xb990e60,8,opus_repacketizer_cat | Opus
+0xb990e68,284,FUN_0b990e68
+0xb99148c,12,opus_repacketizer_out_range | Opus
+0xb991498,28,opus_repacketizer_out | Opus
+0xb9914b4,212,opus_packet_pad | Opus
+0xb991588,156,opus_packet_unpad | Opus
+0xb991708,308,opus_multistream_packet_unpad | Opus
+0xb99183c,348,tonality_get_info | Opus CELT 音调信息
+0xb9931bc,272,run_analysis | Opus CELT 音调分析
+0xb9932cc,536,mlp_process | Opus CELT MLP 神经网络
+0xb9934e4,316,ChoreographerFilter | swappy
+0xb993620,284,launchThreadsLocked | swappy
+0xb993860,136,terminateThreadsLocked | swappy
+0xb9938e8,68,onChoreographer | swappy
+0xb99392c,240,onSettingsChanged | swappy
+0xb993f54,228,create | swappy
+0xb994038,24,FUN_0b994038
+0xb994054,56,FUN_0b994054
+0xb99408c,24,FUN_0b99408c
+0xb9940a4,4,FUN_0b9940a4
+0xb9940ac,8,FUN_0b9940ac
+0xb9940b8,56,FUN_0b9940b8
+0xb9940f0,24,FUN_0b9940f0
+0xb994108,4,FUN_0b994108
+0xb994110,20,FUN_0b994110
+0xb994124,280,__push_back_slow_path<swappy::Thread>
+0xb99423c,196,append | std::string
+0xb994300,308,__grow_by_and_replace | std::string
+0xb994434,876,NDKChoreographerThread | swappy
+0xb9949bc,720,looperThread | swappy ALooper 线程
+0xb996d84,4,setbuf | std::basic_filebuf
+0xb996d94,12,seekpos | std::basic_filebuf
+0xb996db0,8,pbackfail | std::basic_streambuf
+0xb996dfc,24,FUN_0b996dfc
+0xb996e28,56,FUN_0b996e28
+0xb996f04,24,FUN_0b996f04
+0xb996f1c,4,FUN_0b996f1c
+0xb996f24,8,FUN_0b996f24
+0xb997000,148,basic_string<decltype(nullptr)>
+0xb997d00,28,getNumberOfCpus | swappy CpuInfo
+0xb997d1c,4,getCpus | swappy CpuInfo
+0xb997d20,12,getHardware | swappy CpuInfo
+0xb997d2c,168,basic_string | std::string
+0xb997e18,52,getBigCoresMask | swappy CpuInfo
+0xb997ea8,192,basic_string | std::string
+0xb99800c,88,getInstance | swappy 单例
+0xb998110,144,addListener | swappy
+0xb9982e8,52,setSwapDuration | swappy
+0xb998350,48,getDisplayTimings | swappy
+0xb998380,48,getSwapDuration | swappy
+0xb9983e0,508,__emplace_back_slow_path<std::__ndk1::function<void()>>
+0xb9997c4,208,~SwappyDisplayManager | swappy
+0xb999894,184,getSupportedRefreshPeriods | swappy
+0xb99994c,120,setPreferredDisplayModeId | swappy
+0xb999a48,84,onRefreshPeriodChanged | swappy
+0xb999ad4,64,~__shared_ptr_emplace | swappy
+0xb999b78,36,SwappyGL_setUseAffinity | swappy
+0xb999bf8,8,SwappyGL_setAutoSwapInterval | swappy
+0xb999c04,8,SwappyGL_setAutoPipelineMode | swappy
+0xb999c3c,196,init
+0xb99a03c,496,swap | swappy SwappyGL::swap
+0xb99a7b8,112,resetSyncFence | swappy EGL fence
+0xb99a828,160,addTracer | swappy
+0xb99a924,108,setAutoSwapInterval
+0xb99aa58,424,enableStats | swappy
+0xb99b164,4,FUN_0b99b164
+0xb99b16c,12,FUN_0b99b16c
+0xb99b1d0,4,FUN_0b99b1d0
+0xb99b244,4,FUN_0b99b244
+0xb99b248,128,FUN_0b99b248
+0xb99b7dc,156,CallFloatMethod
+0xb99bd18,1480,isDeviceUnsupported | swappy 设备检测
+0xb9a0ed8,72,updateOffsetFromPreviousFrame | swappy
+0xb9a18ec,288,insert | std::string
+0xb9a1fd0,32,statsSupported | swappy
+0xb9a2090,392,getFrameTimestamps | swappy EGL
+0xb9a2698,12,getFencePendingTime | swappy EGL
+0xb9a26f8,4,FUN_0b9a26f8
+0xb9a2708,4,Swappy_version_1_7 | swappy
+0xb9a270c,12,Swappy_version | swappy
+0xb9a2804,104,getSystemPropViaGetAsInt | swappy 系统属性读取
+0xb9a2a54,408,setAffinity | swappy CPU 亲和
+0xb9a3d58,24,FUN_0b9a3d58
+0xb9a3e94,136,FUN_0b9a3e94
+0xb9a4144,16,FUN_0b9a4144
+0xb9a4154,64,FUN_0b9a4154
+0xb9a43e4,8,FUN_0b9a43e4
+0xb9a4430,156,FUN_0b9a4430
+0xb9a46b0,12,FUN_0b9a46b0
+0xb9a46c8,44,FUN_0b9a46c8
+0xb9a48f0,292,FUN_0b9a48f0
+0xb9a5f94,228,FUN_0b9a5f94
+0xb9a61e0,752,FUN_0b9a61e0
+0xb9a7b34,216,FUN_0b9a7b34
+0xb9a7c0c,44,FUN_0b9a7c0c
+0xb9a7c38,116,FUN_0b9a7c38
+0xb9a7d3c,156,FUN_0b9a7d3c
+0xb9a7e38,8,FUN_0b9a7e38 | 分支 veneer（跳转到游戏代码段）
+0xb9a7e50,8,FUN_0b9a7e50 | 分支 veneer（跳转到游戏代码段）
+0xb9a7e60,8,FUN_0b9a7e60 | 分支 veneer（跳转到游戏代码段）
+0xb9a7e78,8,FUN_0b9a7e78 | 分支 veneer（跳转到游戏代码段）
+0xb9a7e88,8,FUN_0b9a7e88 | 分支 veneer（跳转到游戏代码段）
+0xb9a7eb8,8,FUN_0b9a7eb8 | 分支 veneer（跳转到游戏代码段）
+0xb9a7ec8,8,FUN_0b9a7ec8 | 分支 veneer（跳转到游戏代码段）
+0xb9a7ee8,8,FUN_0b9a7ee8 | 分支 veneer（跳转到游戏代码段）
+0xb9a7f20,8,FUN_0b9a7f20 | 分支 veneer（跳转到游戏代码段）
+0xb9a7f48,8,FUN_0b9a7f48 | 分支 veneer（跳转到游戏代码段）
+0xb9a7f78,8,FUN_0b9a7f78 | 分支 veneer（跳转到游戏代码段）
+0xb9a7f98,8,FUN_0b9a7f98 | 分支 veneer（跳转到游戏代码段）
+0xb9a7fc8,8,FUN_0b9a7fc8 | 分支 veneer（跳转到游戏代码段）
+0xb9a7ff0,8,FUN_0b9a7ff0 | 分支 veneer（跳转到游戏代码段）
+0xb9a8010,8,FUN_0b9a8010 | 分支 veneer（跳转到游戏代码段）
+0xb9a8030,8,FUN_0b9a8030 | 分支 veneer（跳转到游戏代码段）
+0xb9a8048,8,FUN_0b9a8048 | 分支 veneer（跳转到游戏代码段）
+0xb9a8078,8,FUN_0b9a8078 | 分支 veneer（跳转到游戏代码段）
+0xb9a80b0,8,FUN_0b9a80b0 | 分支 veneer（跳转到游戏代码段）
+0xb9a80d0,8,FUN_0b9a80d0 | 分支 veneer（跳转到游戏代码段）
+0xb9a80f8,8,FUN_0b9a80f8 | 分支 veneer（跳转到游戏代码段）
+0xb9a8120,8,FUN_0b9a8120 | 分支 veneer（跳转到游戏代码段）
+0xb9a8148,8,FUN_0b9a8148 | 分支 veneer（跳转到游戏代码段）
+0xb9a8170,8,FUN_0b9a8170 | 分支 veneer（跳转到游戏代码段）
+0xb9a8198,8,FUN_0b9a8198 | 分支 veneer（跳转到游戏代码段）

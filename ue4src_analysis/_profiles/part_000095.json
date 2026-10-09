@@ -1,0 +1,193 @@
+{
+ "file": "part_000095.c",
+ "bytes": 2928949,
+ "functions": 1309,
+ "addr_min": "0xb39654c",
+ "addr_max": "0xb9a4ce0",
+ "top_symbols": [
+  [
+   "UnicodeString",
+   284
+  ],
+  [
+   "physx",
+   271
+  ],
+  [
+   "oo2",
+   224
+  ],
+  [
+   "icu_64",
+   217
+  ],
+  [
+   "UMemory",
+   92
+  ],
+  [
+   "UVector64",
+   81
+  ],
+  [
+   "icu_64::UnicodeString",
+   77
+  ],
+  [
+   "UVector",
+   73
+  ],
+  [
+   "UnicodeSet",
+   71
+  ],
+  [
+   "physx::Sn",
+   60
+  ],
+  [
+   "physx::profile::PxProfileWrapperReflectionAllocator<physx::Sn",
+   60
+  ],
+  [
+   "AAT",
+   58
+  ],
+  [
+   "icu_64::Locale",
+   57
+  ],
+  [
+   "std::__ndk1",
+   56
+  ],
+  [
+   "CFF",
+   55
+  ],
+  [
+   "icu_64::UnicodeSet",
+   53
+  ],
+  [
+   "physx::pvdsdk",
+   50
+  ],
+  [
+   "icu_64::Calendar",
+   41
+  ],
+  [
+   "physx::Cm::RenderOutput",
+   40
+  ],
+  [
+   "physx::profile",
+   40
+  ],
+  [
+   "UVector32",
+   32
+  ],
+  [
+   "gamesdk::Trace",
+   32
+  ],
+  [
+   "Locale",
+   31
+  ],
+  [
+   "icu_64::UVector32",
+   28
+  ],
+  [
+   "AAT::InsertionSubtable<AAT::ObsoleteTypes>",
+   26
+  ]
+ ],
+ "symbol_total": 4056,
+ "strings_top": [
+  [
+   "%%lenient-parse:",
+   2
+  ],
+  [
+   "Break Iterator",
+   1
+  ],
+  [
+   "calendar=",
+   1
+  ],
+  [
+   "GMT",
+   1
+  ],
+  [
+   "variable top",
+   1
+  ]
+ ],
+ "keywords": {
+  "spine": 0,
+  "material": 0,
+  "skeleton": 49,
+  "vertex": 0,
+  "color": 0,
+  "pulse": 0,
+  "particle": 0,
+  "fight": 0
+ },
+ "relevance": 147,
+ "largest_functions": [
+  [
+   "0xb7a75a4",
+   16604
+  ],
+  [
+   "0xb406bb8",
+   13172
+  ],
+  [
+   "0xb956a44",
+   7344
+  ],
+  [
+   "0xb5c9c64",
+   5988
+  ],
+  [
+   "0xb64ddac",
+   4908
+  ],
+  [
+   "0xb9a4ce0",
+   4788
+  ],
+  [
+   "0xb5ea044",
+   4120
+  ],
+  [
+   "0xb905d94",
+   4112
+  ],
+  [
+   "0xb883524",
+   3688
+  ],
+  [
+   "0xb5b03dc",
+   3216
+  ],
+  [
+   "0xb5fb708",
+   3200
+  ],
+  [
+   "0xb3e9988",
+   3056
+  ]
+ ]
+}

@@ -1,0 +1,217 @@
+{
+ "file": "part_000099.c",
+ "bytes": 1059129,
+ "functions": 270,
+ "addr_min": "0xb81012c",
+ "addr_max": "0xb983498",
+ "top_symbols": [
+  [
+   "AAT",
+   114
+  ],
+  [
+   "CFF",
+   94
+  ],
+  [
+   "cff2_cs_interp_env_t",
+   33
+  ],
+  [
+   "FMemory",
+   30
+  ],
+  [
+   "UnicodeString",
+   26
+  ],
+  [
+   "CFF::Subrs<OT",
+   19
+  ],
+  [
+   "hb_sanitize_context_t::sanitize_blob<OT",
+   18
+  ],
+  [
+   "hb_set_t",
+   12
+  ],
+  [
+   "numparse::impl::StringSegment",
+   11
+  ],
+  [
+   "hb_user_data_array_t",
+   11
+  ],
+  [
+   "hb_get_subtables_context_t",
+   10
+  ],
+  [
+   "icu_64::number::impl::CurrencyPluralInfoAffixProvider",
+   8
+  ],
+  [
+   "Coverage",
+   8
+  ],
+  [
+   "hb_get_subtables_context_t::apply_to<OT",
+   8
+  ],
+  [
+   "AAT::ContextualSubtable<AAT::ObsoleteTypes>",
+   8
+  ],
+  [
+   "AAT::StateTableDriver<AAT",
+   7
+  ],
+  [
+   "icu_64::number::impl::blueprint_helpers",
+   6
+  ],
+  [
+   "MeasureUnit",
+   6
+  ],
+  [
+   "cff2_path_procs_extents_t",
+   6
+  ],
+  [
+   "ClassDef",
+   6
+  ],
+  [
+   "hb_get_subtables_context_t::hb_applicable_t>",
+   6
+  ],
+  [
+   "AAT::InsertionSubtable<AAT::ObsoleteTypes>",
+   6
+  ],
+  [
+   "fvar",
+   6
+  ],
+  [
+   "Notation",
+   5
+  ],
+  [
+   "CFF::number_t>",
+   5
+  ]
+ ],
+ "symbol_total": 737,
+ "strings_top": [
+  [
+   "sign-auto",
+   1
+  ],
+  [
+   "sign-always",
+   1
+  ],
+  [
+   "sign-never",
+   1
+  ],
+  [
+   "sign-accounting",
+   1
+  ],
+  [
+   "sign-accounting-always",
+   1
+  ],
+  [
+   "sign-except-zero",
+   1
+  ],
+  [
+   "sign-accounting-except-zero",
+   1
+  ],
+  [
+   "currency/",
+   1
+  ],
+  [
+   "percent",
+   1
+  ],
+  [
+   "permille",
+   1
+  ],
+  [
+   "measure-unit/",
+   1
+  ]
+ ],
+ "keywords": {
+  "spine": 0,
+  "material": 0,
+  "skeleton": 0,
+  "vertex": 0,
+  "color": 0,
+  "pulse": 0,
+  "particle": 0,
+  "fight": 0
+ },
+ "relevance": 0,
+ "largest_functions": [
+  [
+   "0xb949d24",
+   9108
+  ],
+  [
+   "0xb8170b0",
+   6108
+  ],
+  [
+   "0xb983498",
+   6100
+  ],
+  [
+   "0xb874d3c",
+   3912
+  ],
+  [
+   "0xb841ca0",
+   3336
+  ],
+  [
+   "0xb8bd268",
+   2468
+  ],
+  [
+   "0xb8f9a58",
+   2328
+  ],
+  [
+   "0xb92b150",
+   2304
+  ],
+  [
+   "0xb9138c8",
+   1628
+  ],
+  [
+   "0xb91b424",
+   1404
+  ],
+  [
+   "0xb8c7d64",
+   1216
+  ],
+  [
+   "0xb854598",
+   1208
+  ]
+ ]
+}

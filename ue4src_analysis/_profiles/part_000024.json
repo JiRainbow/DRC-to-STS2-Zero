@@ -1,0 +1,293 @@
+{
+ "file": "part_000024.c",
+ "bytes": 8042949,
+ "functions": 3712,
+ "addr_min": "0x72e8984",
+ "addr_max": "0x809a0d8",
+ "top_symbols": [
+  [
+   "FMemory",
+   2376
+  ],
+  [
+   "FInternationalization",
+   325
+  ],
+  [
+   "FLinkerPlaceholderBase",
+   295
+  ],
+  [
+   "Eigen",
+   290
+  ],
+  [
+   "FReferenceChainSearch",
+   287
+  ],
+  [
+   "Chaos",
+   278
+  ],
+  [
+   "FString",
+   265
+  ],
+  [
+   "UE4Function_Private",
+   257
+  ],
+  [
+   "FMsg",
+   226
+  ],
+  [
+   "FGenericPlatformString",
+   203
+  ],
+  [
+   "FName",
+   191
+  ],
+  [
+   "const",
+   143
+  ],
+  [
+   "IConsoleManager",
+   132
+  ],
+  [
+   "FDynamicMesh3",
+   127
+  ],
+  [
+   "FSlateApplication",
+   122
+  ],
+  [
+   "UObject",
+   119
+  ],
+  [
+   "SharedPointerInternals",
+   110
+  ],
+  [
+   "FSlateUser",
+   94
+  ],
+  [
+   "FText",
+   92
+  ],
+  [
+   "FGenericPlatformStricmp",
+   85
+  ],
+  [
+   "UScriptStruct",
+   75
+  ],
+  [
+   "icu_64",
+   75
+  ],
+  [
+   "FPackageStore",
+   73
+  ],
+  [
+   "FUObjectHashTables",
+   71
+  ],
+  [
+   "FTextKeyState",
+   70
+  ]
+ ],
+ "symbol_total": 14677,
+ "strings_top": [
+  [
+   "UnicodeBlock",
+   272
+  ],
+  [
+   "/Script/CoreUObject",
+   36
+  ],
+  [
+   "Engine",
+   34
+  ],
+  [
+   "%s%s",
+   34
+  ],
+  [
+   "OSS: ",
+   33
+  ],
+  [
+   "%s: The two values are not equal.",
+   24
+  ],
+  [
+   "Failed to find entry point for %s",
+   19
+  ],
+  [
+   "/Script/Synthesis",
+   18
+  ],
+  [
+   "/Script/OnlineSubsystem",
+   10
+  ],
+  [
+   "GenericCommands",
+   9
+  ],
+  [
+   "/Script/InputCore",
+   8
+  ],
+  [
+   "/Script/ActorSequence",
+   7
+  ],
+  [
+   "ANDROID",
+   6
+  ],
+  [
+   "OnlinePresence",
+   6
+  ],
+  [
+   "default",
+   5
+  ],
+  [
+   "ProjectManager",
+   5
+  ],
+  [
+   "CoreUObject",
+   5
+  ],
+  [
+   "Sender=%s, Sequence=%llu",
+   4
+  ],
+  [
+   "FriendAccountCredentials",
+   4
+  ],
+  [
+   "OnlineSubsystem",
+   4
+  ],
+  [
+   "/Script/MobilePatchingUtils",
+   4
+  ],
+  [
+   "PluginManager",
+   4
+  ],
+  [
+   "ScriptCore",
+   4
+  ],
+  [
+   "rhi.SyncInterval",
+   4
+  ],
+  [
+   "/Script/ChaosCloth",
+   3
+  ],
+  [
+   "Normal",
+   3
+  ],
+  [
+   "<Unknown EDateTimeStyle>",
+   3
+  ],
+  [
+   "%s %s.%s",
+   3
+  ],
+  [
+   "Event_PostLoadExportBundle",
+   3
+  ],
+  [
+   "Post-setup solve time",
+   2
+  ]
+ ],
+ "keywords": {
+  "spine": 0,
+  "material": 52,
+  "skeleton": 0,
+  "vertex": 235,
+  "color": 97,
+  "pulse": 3,
+  "particle": 524,
+  "fight": 0
+ },
+ "relevance": 577,
+ "largest_functions": [
+  [
+   "0x7f39ff8",
+   13940
+  ],
+  [
+   "0x75aa618",
+   13696
+  ],
+  [
+   "0x7b34a00",
+   8088
+  ],
+  [
+   "0x78ee5b0",
+   7988
+  ],
+  [
+   "0x732a974",
+   7840
+  ],
+  [
+   "0x7d9d928",
+   7784
+  ],
+  [
+   "0x7de10ac",
+   7712
+  ],
+  [
+   "0x7cd9ad4",
+   6652
+  ],
+  [
+   "0x7c14ca4",
+   6556
+  ],
+  [
+   "0x809a0d8",
+   6316
+  ],
+  [
+   "0x7e86f2c",
+   6184
+  ],
+  [
+   "0x7c35ebc",
+   5648
+  ]
+ ]
+}

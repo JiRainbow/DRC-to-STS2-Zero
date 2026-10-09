@@ -1,0 +1,12 @@
+{
+  "id": "DRCSpineDye",
+  "pck_name": "DRCSpineDye",
+  "name": "DRCSpineDye",
+  "author": "dragonraja-port",
+  "description": "Dragon Raja spine post-process framework - applies ported UE4 dye materials to skin mods that ship a dye_config.json",
+  "version": "v1.0.0",
+  "min_game_version": "0.0.0",
+  "has_pck": false,
+  "has_dll": true,
+  "affects_gameplay": false
+}

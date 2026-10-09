@@ -1,0 +1,259 @@
+﻿addr,size,name,备注
+0xb7fb4a8,116,insertSuffix,ICU MutablePatternModifier::insertSuffix 数字格式化追加负后缀
+0xb7fbb14,36,prepareAffix,ICU MutablePatternModifier::prepareAffix 生成正/负模式串
+0xb7fbbbc,196,getCodePointCount,ICU MutablePatternModifier::getCodePointCount 统计前后缀码点数
+0xb7fbd90,12,semanticallyEquivalent,ICU MutablePatternModifier::semanticallyEquivalent 等价比较
+0xb7fbfb0,108,~MutablePatternModifier,ICU MutablePatternModifier 析构
+0xb7fc3fc,256,parseToExistingPropertiesImpl,ICU parseToExistingPropertiesImpl 模式串解析为属性
+0xb7fd5cc,1120,patternInfoToProperties,ICU patternInfoToProperties 数字模式解析核心(1120B)
+0xb8010c0,280,codePointBefore,ICU NumberStringBuilder::codePointBefore
+0xb8018ac,360,insert,ICU NumberStringBuilder::insert 插入字段
+0xb802830,16,isNumericField,ICU 判断字段是否数值字段
+0xb802840,88,containsField,ICU 检查是否含指定字段
+0xb802cec,168,setTo,ICU setTo(FormattedStringBuilder 赋值)
+0xb802fe0,292,setTo,ICU setTo(第二重载)
+0xb803b78,40,uprv_decNumberToString_64,ICU decNumber 转字符串
+0xb803ba0,1832,FUN_0b803ba0,FUN decNumber 运算内核(未命名,1832B)
+0xb80a6b8,72,uprv_decNumberIsNormal_64,ICU decNumberIsNormal 判断规格化数
+0xb80a700,524,uprv_decNumberOr_64,ICU decNumberOr 位或运算
+0xb80b4e0,580,FUN_0b80b4e0,FUN decNumber 辅助(580B)
+0xb80be8c,120,uprv_decNumberRescale_64,ICU decNumberRescale 调整指数
+0xb80bf04,160,uprv_decNumberRemainder_64,ICU decNumberRemainder 取余
+0xb80bfa4,160,uprv_decNumberRemainderNear_64,ICU decNumberRemainderNear 就近取余
+0xb80c044,932,uprv_decNumberRotate_64,ICU decNumberRotate 数字旋转
+0xb80dcc0,132,uprv_decNumberToIntegralValue_64,ICU decNumberToIntegralValue 取整
+0xb80e00c,36,uprv_decNumberClassToString_64,ICU decNumberClassToString 类别名
+0xb80e030,232,uprv_decNumberCopyNegate_64,ICU decNumberCopyNegate 取负拷贝
+0xb80e244,12,uprv_decNumberVersion_64,ICU decNumberVersion 返回版本号
+0xb80e250,528,FUN_0b80e250,FUN decNumber 辅助(528B)
+0xb80ef08,396,format,ICU 格式化输出 format
+0xb8106c8,8,hasCurrencySign,ICU 判断含货币符号
+0xb810750,8,hasBody,ICU 判断模式串含正文
+0xb810758,24,charAt,ICU64
+0xb810788,24,getString,ICU64
+0xb8107d0,16,hasCurrencySign,ICU64
+0xb8108d4,24,scientific,ICU64
+0xb8108ec,28,engineering,ICU64
+0xb810948,28,compactLong,ICU64
+0xb810980,84,withMinExponentDigits,ICU64
+0xb810c68,64,~Scale,ICU64
+0xb810ccc,264,byDecimal,ICU64
+0xb81193c,192,resolveCurrency,ICU64
+0xb812670,2372,FUN_0b812670,ICU64
+0xb81d598,60,GetCachedPowerForDecimalExponent,ICU64
+0xb81de7c,224,FUN_0b81de7c,ICU64
+0xb81e318,48,StringSegment,ICU64
+0xb81e420,132,getCodePoint,ICU64
+0xb81e53c,16,codePointAt,ICU64
+0xb81e71c,84,codePointsEqual,ICU64
+0xb81e954,8,getCommonPrefixLength,ICU64
+0xb81eadc,284,operator==,ICU64
+0xb81fe80,204,~ScientificMatcher,ICU64
+0xb82167c,176,addMatcher,ICU64
+0xb821e20,4,postProcess,ICU64
+0xb821eb4,228,operator=,ICU64
+0xb8221e0,140,SymbolMatcher,ICU64
+0xb8227a8,20,accept,ICU64
+0xb822888,160,PercentMatcher,ICU64
+0xb823ba8,112,validateGroup,ICU64
+0xb8241d4,92,~ScientificMatcher,ICU64
+0xb824a98,640,consumeToken,ICU64
+0xb826a98,100,smokeTest,ICU64
+0xb826d8c,468,toString,ICU64
+0xb827760,16,toString,ICU64
+0xb827a10,24,~EraRules,ICU64
+0xb827f5c,84,getStartYear,ICU64
+0xb8280f8,16,constrainCategory,ICU64
+0xb828198,4,~FormattedValue,ICU64
+0xb828240,80,ucfpos_constrainCategory_64,ICU64
+0xb8283d8,80,ucfpos_getInt64IterationContext_64,ICU64
+0xb828750,52,~FormattedValueNumberStringBuilderImpl,ICU64
+0xb828ee4,144,~sentry,ICU64
+0xb829cb8,16,FT_RoundFix,FreeType
+0xb829ce0,76,FUN_0b829ce0,FreeType
+0xb829eec,20,FT_MulFix,FreeType
+0xb829f44,168,FT_Matrix_Multiply,FreeType
+0xb82a550,340,FUN_0b82a550,FreeType
+0xb82a9f8,40,FT_Get_X11_Font_Format,FreeType
+0xb82adcc,892,FUN_0b82adcc,FreeType
+0xb82e048,448,FT_Request_Size,FreeType
+0xb82f338,140,FT_Get_Postscript_Name,FreeType
+0xb82f7a0,64,FT_List_Up,FreeType
+0xb82ffa0,108,FT_Get_Module,FreeType
+0xb8303fc,36,FT_Reference_Library,FreeType
+0xb830420,172,FT_New_Library,FreeType
+0xb830e48,184,FT_Outline_Copy,FreeType
+0xb8312c8,8,FT_Outline_Embolden,FreeType
+0xb8312d0,980,FT_Outline_EmboldenXY,FreeType
+0xb835f9c,220,FUN_0b835f9c,FreeType
+0xb836420,808,FUN_0b836420,FreeType
+0xb8392fc,2044,FUN_0b8392fc,FreeType
+0xb8438fc,96,FT_Stroker_BeginSubPath,FreeType
+0xb84395c,1052,FT_Stroker_EndSubPath,FreeType
+0xb845d24,12,FUN_0b845d24,FreeType
+0xb845d30,4520,FUN_0b845d30,FreeType
+0xb871e10,12,FUN_0b871e10,FreeType
+0xb871f28,32,FUN_0b871f28,FreeType
+0xb872018,360,FUN_0b872018,FreeType
+0xb8731e4,464,FUN_0b8731e4,FreeType
+0xb8748b8,920,FUN_0b8748b8,FreeType
+0xb877a08,320,FUN_0b877a08,FreeType
+0xb878190,192,FUN_0b878190,FreeType
+0xb8785f8,48,FUN_0b8785f8,FreeType
+0xb878628,12,FUN_0b878628,FreeType
+0xb878634,624,FUN_0b878634,FreeType
+0xb87920c,332,FUN_0b87920c,FreeType
+0xb8794a4,1052,FUN_0b8794a4,FreeType
+0xb87e084,140,FUN_0b87e084,FreeType
+0xb87e110,1228,FUN_0b87e110,FreeType
+0xb880e70,328,FUN_0b880e70,FreeType
+0xb8816b0,12,FUN_0b8816b0,FreeType
+0xb88170c,1684,FUN_0b88170c,FreeType
+0xb88b51c,232,FUN_0b88b51c,FreeType
+0xb88b604,504,FUN_0b88b604,FreeType
+0xb88ba18,424,FUN_0b88ba18,FreeType
+0xb88c0e8,1160,FUN_0b88c0e8,FreeType
+0xb88c570,220,FUN_0b88c570,FreeType
+0xb88c64c,228,FUN_0b88c64c,FreeType
+0xb88c730,228,FUN_0b88c730,FreeType
+0xb88c814,420,FUN_0b88c814,FreeType
+0xb88c9b8,852,FUN_0b88c9b8,FreeType
+0xb88ce78,32,FUN_0b88ce78,FreeType
+0xb88ce98,392,FUN_0b88ce98,FreeType
+0xb88e8d4,628,FUN_0b88e8d4,FreeType
+0xb8902e8,8,FUN_0b8902e8,FreeType
+0xb8902f0,8,FUN_0b8902f0,FreeType
+0xb8902f8,124,FUN_0b8902f8,FreeType
+0xb890374,124,FUN_0b890374,FreeType
+0xb8903f0,288,FUN_0b8903f0,FreeType
+0xb890624,96,FUN_0b890624,FreeType
+0xb890730,48,FUN_0b890730,FreeType
+0xb89083c,92,FUN_0b89083c,FreeType
+0xb890bec,152,FUN_0b890bec,FreeType
+0xb8910d8,652,FUN_0b8910d8,FreeType
+0xb893064,360,FUN_0b893064,FreeType
+0xb8931cc,160,FUN_0b8931cc,FreeType
+0xb89326c,8,FUN_0b89326c,FreeType
+0xb893274,44,FUN_0b893274,FreeType
+0xb8932a0,92,FUN_0b8932a0,FreeType
+0xb8932fc,36,FUN_0b8932fc,FreeType
+0xb893320,16,FUN_0b893320,FreeType
+0xb893330,8,FUN_0b893330,FreeType
+0xb893338,148,FUN_0b893338,FreeType
+0xb8933cc,1828,FUN_0b8933cc,FreeType
+0xb898fb8,12,FUN_0b898fb8,FreeType
+0xb898fc4,2768,FUN_0b898fc4,FreeType
+0xb8a3954,196,get_face,HarfBuzz/OT
+0xb8a3f50,520,page_for_insert,HarfBuzz/OT
+0xb8a52f8,380,sanitize<OT::UnsizedArrayOf<OT::IntType<unsigned_char,1u>>const*>,HarfBuzz/OT
+0xb8a5cdc,1852,find_best_subtable,HarfBuzz/OT
+0xb8aafe0,280,sanitize,HarfBuzz/OT
+0xb8ab7b0,372,sanitize,HarfBuzz/OT
+0xb8ac2f0,356,get_delta,HarfBuzz/OT
+0xb8acc1c,252,sanitize_blob<OT::head>,HarfBuzz/OT
+0xb8ad5f0,404,get_png_extents,HarfBuzz/OT
+0xb8aed18,204,resize,HarfBuzz/OT
+0xb8af17c,300,length_at,HarfBuzz/OT
+0xb8b0190,48,~interp_env_t,HarfBuzz/OT
+0xb8b01c4,508,sanitize,HarfBuzz/OT
+0xb8b1af8,360,interpret,HarfBuzz/OT
+0xb8b1fbc,424,process_op,HarfBuzz/OT
+0xb8b2618,588,process_op,HarfBuzz/OT
+0xb8b3688,168,get_image_data,HarfBuzz/OT
+0xb8b3c30,196,resize,HarfBuzz/OT
+0xb8b40a4,232,cmp_key,HarfBuzz/OT
+0xb8b4978,944,process_seac,HarfBuzz/OT
+0xb8b8cc4,372,curve,HarfBuzz/OT
+0xb8b90c8,196,resize,HarfBuzz/OT
+0xb8b93a0,1196,process_op,HarfBuzz/OT
+0xb8bc35c,692,vvcurveto,HarfBuzz/OT
+0xb8bdf34,1180,flex,HarfBuzz/OT
+0xb8c05c4,1052,FUN_0b8c05c4,HarfBuzz/OT
+0xb8c2cac,112,hb_ot_layout_get_glyph_class,HarfBuzz/OT
+0xb8c2e24,280,hb_ot_layout_get_ligature_carets,HarfBuzz/OT
+0xb8c3444,744,hb_ot_layout_table_find_script,HarfBuzz/OT
+0xb8c4a6c,696,hb_ot_layout_collect_features,HarfBuzz/OT
+0xb8c7724,1600,FUN_0b8c7724,HarfBuzz/OT
+0xb8cd1a4,940,collect_glyphs,HarfBuzz/OT
+0xb8cff1c,236,evaluate,HarfBuzz/OT
+0xb8d02a0,276,dispatch<OT::hb_would_apply_context_t>,HarfBuzz/OT
+0xb8d0c20,252,would_apply,HarfBuzz/OT
+0xb8d1334,428,dispatch<OT::hb_closure_context_t>,HarfBuzz/OT
+0xb8d337c,84,FUN_0b8d337c,HarfBuzz/OT
+0xb8d3680,420,get_min,HarfBuzz/OT
+0xb8d39e8,440,intersects_class,HarfBuzz/OT
+0xb8d4e28,196,get_stored,HarfBuzz/OT
+0xb8d5678,468,sanitize,HarfBuzz/OT
+0xb8d6e48,316,sanitize,HarfBuzz/OT
+0xb8d7ba4,216,sanitize<OT::SubstLookup>,HarfBuzz/OT
+0xb8d82a0,268,sanitize<OT::Record_sanitize_closure_t_const*>,HarfBuzz/OT
+0xb8d8f90,740,sanitize<OT::SubstLookupSubTable>,HarfBuzz/OT
+0xb8dbc30,348,add_coverage<hb_set_digest_combiner_t<hb_set_digest_lowest_bits_t<unsigned_long,4u>,hb_set_digest_combiner_t<hb_set_digest_lowest_bits_t<unsigned_long,0u>,hb_set_digest_lowest_bits_t<unsigned_long,9u>>>>,HarfBuzz/OT
+0xb8dc78c,288,_set_glyph_props,HarfBuzz/OT
+0xb8dcfd4,4,apply_to<OT::LigatureSubstFormat1>,HarfBuzz/OT
+0xb8de0d4,4,apply_to<OT::ContextFormat3>,HarfBuzz/OT
+0xb8dea4c,332,apply,HarfBuzz/OT
+0xb8df38c,400,sanitize,HarfBuzz/OT
+0xb8e0760,232,sanitize,HarfBuzz/OT
+0xb8e0cf0,256,sanitize,HarfBuzz/OT
+0xb8e18c4,1184,apply_value,HarfBuzz/OT
+0xb8e6dd4,324,dispatch<OT::hb_ot_apply_context_t>,HarfBuzz/OT
+0xb8e76a0,204,compile_flags,HarfBuzz/OT
+0xb8e8160,288,FUN_0b8e8160,HarfBuzz/OT
+0xb8e8854,356,get_tracking,HarfBuzz/OT
+0xb8e9058,332,sanitize,HarfBuzz/OT
+0xb8ea81c,668,transition,HarfBuzz/OT
+0xb8ec4e8,656,dispatch<AAT::hb_aat_apply_context_t>,HarfBuzz/OT
+0xb8ee1d8,352,sanitize_blob<AAT::kerx>,HarfBuzz/OT
+0xb8ef3c0,180,sanitize,HarfBuzz/OT
+0xb8efca8,184,sanitize,HarfBuzz/OT
+0xb8f016c,600,sanitize,HarfBuzz/OT
+0xb8f23dc,1724,transition,HarfBuzz/OT
+0xb8f8510,24,cmp,HarfBuzz/OT
+0xb8f85ec,268,FUN_0b8f85ec,HarfBuzz/OT
+0xb8f9528,16,FUN_0b8f9528,HarfBuzz/OT
+0xb8f9538,852,FUN_0b8f9538,HarfBuzz/OT
+0xb8fb514,628,serialize,HarfBuzz/OT
+0xb8fd3dc,3208,FUN_0b8fd3dc,HarfBuzz/OT
+0xb90490c,1456,FUN_0b90490c,HarfBuzz/OT
+0xb90a87c,128,cmp,HarfBuzz/OT
+0xb90a940,64,hb_ot_var_get_axis_count,HarfBuzz/OT
+0xb90aa48,212,hb_ot_var_find_axis,HarfBuzz/OT
+0xb90ac94,64,hb_ot_var_get_named_instance_count,HarfBuzz/OT
+0xb90acd4,180,hb_ot_var_named_instance_get_subfamily_name_id,HarfBuzz/OT
+0xb90afb0,476,hb_ot_var_normalize_variations,HarfBuzz/OT
+0xb90bb14,280,get_stored,HarfBuzz/OT
+0xb90c2a0,204,del,HarfBuzz/OT
+0xb90d920,1044,process<HbOpAnd>,HarfBuzz/OT
+0xb91113c,12,png_get_io_ptr,libpng
+0xb911158,592,png_convert_to_rfc1123_buffer,libpng
+0xb911984,1932,FUN_0b911984,libpng
+0xb916e00,64,png_get_x_offset_inches,libpng
+0xb916f5c,48,png_get_bKGD,libpng
+0xb917378,48,png_get_sRGB,libpng
+0xb9173fc,36,png_get_sPLT,libpng
+0xb917540,72,png_get_oFFs,libpng
+0xb91780c,60,png_get_text,libpng
+0xb917968,12,png_get_user_width_max,libpng
+0xb91798c,12,png_get_chunk_malloc_max,libpng
+0xb917be0,260,png_realloc_array,libpng
+0xb919354,340,FUN_0b919354,libpng
+0xb91b9a0,364,FUN_0b91b9a0,libpng
+0xb91bb0c,308,FUN_0b91bb0c,libpng
+0xb91bc40,292,FUN_0b91bc40,libpng
+0xb91c9c8,80,png_default_read_data,libpng
+0xb91cb48,156,png_set_background_fixed,libpng
+0xb91ccd8,48,png_set_scale_16,libpng
+0xb91cd68,488,png_set_alpha_mode_fixed,libpng
+0xb91db6c,56,png_set_tRNS_to_alpha,libpng
+0xb91dd44,104,png_set_rgb_to_gray,libpng
+0xb91ebbc,10588,png_do_read_transformations,libpng
+0xb988ac4,280,silk_interpolate,SILK/Opus
+0xb989ae0,200,silk_fit_LTP,SILK/Opus
+0xb989ba8,336,silk_corrVector_FIX,SILK/Opus
+0xb989cf8,1208,silk_corrMatrix_FIX,SILK/Opus
+0xb98af44,592,silk_process_NLSFs,SILK/Opus
+0xb98bb24,1528,silk_NLSF_del_dec_quant,SILK/Opus
+0xb9905c8,1364,silk_stereo_find_predictor,SILK/Opus
+0xb991624,228,opus_multistream_packet_pad,SILK/Opus
+0xb991998,6180,tonality_analysis,SILK/Opus

@@ -1,0 +1,26 @@
+# ---- 大体积原始/派生数据（有 dragonraja2 完整备份，不进版本库）----
+com.zulong.drc.gw/
+resources/
+unpacked/
+base.apk
+drcbingpinzhuan.apk
+*.apk
+
+# ---- 工作区内部数据 ----
+.workbuddy/
+
+# ---- 二进制资产兜底（文本源码/场景/配置全保留）----
+*.png
+*.ctex
+*.uasset
+*.uexp
+*.ubulk
+*.pck
+*.zip
+*.pkl
+*.bin
+*.dat
+*.skel
+*.atlas
+*.dll
+*.exe

@@ -1,0 +1,28 @@
+﻿addr,size,备注
+0xb9672bc,136,opus_custom_mode_create: 仅接受 48kHz+帧长960/480/240/120，返回静态 OpusMode 结构 DAT_0c2318a8，否则置错返回0
+0xb967344,16,silk_Get_Decoder_Size: 输出 SILK 解码器通道状态大小 0x2198，恒返回0
+0xb967354,56,silk_InitDecoder: 初始化立体声两个通道状态(偏移0/0x10c0)并清 LBRR 联动字段
+0xb96738c,2832,silk_Decode: SILK 解码主入口，按帧解 LBRR 标志/indices/pulses，silk_decode_frame，立体声 MS_to_LR 与重采样输出， lost 标志走 CNG/PLC
+0xb96e508,88,silk_resampler_private_AR2: 二阶 AR 滤波重采样内层循环，Q14 定点乘累加
+0xb96e560,76,silk_init_decoder: memset 单通道 0x10c0 状态并 silk_CNG_Reset/silk_PLC_Reset
+0xb96e5ac,1684,silk_stereo_MS_to_LR: 中/侧到左/右转换，含预测状态平滑与 NEON 向量化饱和限幅
+0xb97a7c4,1940,"opus_custom_encoder_ctl: 编码器 ctl 大 switch(0xfa2 码率上限,0xfaa 复杂度,0xfae VBR 偏置,0xfbc 重置,0x2712 DTX 等)，无 default 报错"
+0xb97e05c,5076,silk_NSQ: SILK 噪声形状量化核心(全片最大函数)，LPC 分析滤波+LTP 残差+量化级距(Quantization_Offsets_Q10)决策循环，NEON 展开
+0xb98b194,2088,silk_NLSF_encode: NLSF 参数编码，silk_NLSF_stabilize/VQ/insertion_sort/del_dec_quant/unpack/lin2log
+0xb9968e8,4,swappy::JavaChoreographerThread::onChoreographer: gamesdk::Trace 单例守卫初始化+choreographer 待处理计数递减并回调
+0xb996aec,8,std::__ndk1::basic_ostream<char> 析构(非删除版本): 仅调 ios_base 析构
+0xb996af4,40,basic_ostream<char> deleting 析构: ios_base 析构 + operator delete
+0xb996b1c,20,basic_ostream<char> 析构的虚拟 thunk: 按 vbase 偏移调 ios_base 析构
+0xb996b30,48,basic_ostream<char> deleting 析构虚拟 thunk: vbase 偏移 ios_base 析构 + operator delete
+0xb996b60,8,basic_streambuf<char>::showmanyc 虚桩: 恒返回0
+0xb996c30,64,basic_streambuf<char>::uflow: 调虚表+0x48(underflow)成功则读指针前移并返回旧字符
+0xb996c70,200,basic_streambuf<char>::xsputn: 批量 memcpy 到写缓冲区，写满则调虚表+0x68(overflow)逐字符
+0xb996d80,4,basic_streambuf<char>::imbue: 空实现
+0xb996d88,12,basic_streambuf<char>::seekoff: 恒返回 off_type(-1)
+0xb996da0,8,basic_streambuf<char>::sync 虚桩: 恒返回0
+0xb996da8,8,basic_streambuf<char>::underflow 虚桩: 恒返回 EOF(-1)
+0xb996dc4,56,未命名: operator_new(0x10) 构造 locale facet 类对象，写 vtable DAT_0c231d40 并拷贝参数+8
+0xb996e60,24,未命名: 栈上 placement 构造 locale facet 对象，vtable DAT_0c231d88
+0xb996ecc,56,未命名: 同 0xb996dc4 模式，vtable DAT_0c231dd0
+0xb996f2c,48,swappy::to_string(int): 调 FUN_0b996f5c 转换后以 DAT_0c6c5410 构造 basic_string
+0xb997094,2972,swappy::CpuInfo 构造: 解析 /proc/cpuinfo(processor/Hardware 行)与 /sys/devices/system/cpu/cpuN/topology/physical_package_id、cpufreq/cpuinfo_max_freq，按最大频率聚类大/小核位图

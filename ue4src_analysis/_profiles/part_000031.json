@@ -1,0 +1,293 @@
+{
+ "file": "part_000031.c",
+ "bytes": 8000474,
+ "functions": 3446,
+ "addr_min": "0x7871024",
+ "addr_max": "0x838ff74",
+ "top_symbols": [
+  [
+   "FMemory",
+   1866
+  ],
+  [
+   "FInputBindingManager",
+   339
+  ],
+  [
+   "FName",
+   262
+  ],
+  [
+   "FString",
+   260
+  ],
+  [
+   "FTabManager",
+   250
+  ],
+  [
+   "IConsoleManager",
+   237
+  ],
+  [
+   "SharedPointerInternals",
+   226
+  ],
+  [
+   "SWidget",
+   215
+  ],
+  [
+   "UObject",
+   187
+  ],
+  [
+   "FLayoutExtender",
+   157
+  ],
+  [
+   "FTextLocalizationResource",
+   155
+  ],
+  [
+   "FMsg",
+   149
+  ],
+  [
+   "FText",
+   138
+  ],
+  [
+   "SWindow",
+   128
+  ],
+  [
+   "VulkanRHI",
+   123
+  ],
+  [
+   "FSlateUser",
+   121
+  ],
+  [
+   "FGenericPlatformString",
+   99
+  ],
+  [
+   "FSlateApplication",
+   85
+  ],
+  [
+   "FCharacterList",
+   79
+  ],
+  [
+   "RequiredArgs",
+   76
+  ],
+  [
+   "FIoStoreWriterImpl",
+   71
+  ],
+  [
+   "FZipUnionFile",
+   70
+  ],
+  [
+   "UE4Function_Private",
+   68
+  ],
+  [
+   "FUObjectHashTables",
+   66
+  ],
+  [
+   "FInternationalization",
+   62
+  ]
+ ],
+ "symbol_total": 13088,
+ "strings_top": [
+  [
+   "Engine",
+   68
+  ],
+  [
+   "/Script/CoreUObject",
+   52
+  ],
+  [
+   "/Script/Synthesis",
+   21
+  ],
+  [
+   "ColorPicker",
+   21
+  ],
+  [
+   "Failed to find entry point for %s",
+   20
+  ],
+  [
+   "Slate",
+   13
+  ],
+  [
+   "Fonts",
+   13
+  ],
+  [
+   "/Script/Slate",
+   11
+  ],
+  [
+   "CoreAsyncTaskNotification",
+   4
+  ],
+  [
+   "%32s%3s    %12lld %12lld    %6.2fms    (+%9.2fms)      %s\\r\\n",
+   4
+  ],
+  [
+   "Enum",
+   4
+  ],
+  [
+   "Regular",
+   4
+  ],
+  [
+   "UNATTENDED",
+   3
+  ],
+  [
+   "MallocBinnedGPU Corruption Canary was 0x%x, should be 0x%x",
+   3
+  ],
+  [
+   " - ",
+   3
+  ],
+  [
+   "Core",
+   3
+  ],
+  [
+   "Core.System",
+   3
+  ],
+  [
+   "Property",
+   3
+  ],
+  [
+   "RF_NeedLoad",
+   3
+  ],
+  [
+   "RF_NeedPostLoad",
+   3
+  ],
+  [
+   "%s hasn\\'t been loaded (%s) but is being added to cluster %s",
+   3
+  ],
+  [
+   "SizeCoefficient",
+   3
+  ],
+  [
+   "SourceEffectBitCrusherPreset",
+   2
+  ],
+  [
+   "SourceEffectPannerPreset",
+   2
+  ],
+  [
+   "Could not parse task priority %s",
+   2
+  ],
+  [
+   "FMallocAzureProtect::Malloc",
+   2
+  ],
+  [
+   "MallocBinned2 Corruption Canary was 0x%x, should be 0x%x",
+   2
+  ],
+  [
+   "Timespan",
+   2
+  ],
+  [
+   "Minutes",
+   2
+  ],
+  [
+   "Seconds",
+   2
+  ]
+ ],
+ "keywords": {
+  "spine": 0,
+  "material": 211,
+  "skeleton": 0,
+  "vertex": 187,
+  "color": 1485,
+  "pulse": 7,
+  "particle": 1,
+  "fight": 0
+ },
+ "relevance": 803,
+ "largest_functions": [
+  [
+   "0x7ec61ac",
+   14568
+  ],
+  [
+   "0x816a6bc",
+   13480
+  ],
+  [
+   "0x7f63828",
+   10864
+  ],
+  [
+   "0x80d3818",
+   9468
+  ],
+  [
+   "0x811fcbc",
+   8044
+  ],
+  [
+   "0x7f2fb24",
+   7340
+  ],
+  [
+   "0x795d100",
+   5944
+  ],
+  [
+   "0x7bde000",
+   5652
+  ],
+  [
+   "0x7dc13e0",
+   5368
+  ],
+  [
+   "0x80a4fc0",
+   5120
+  ],
+  [
+   "0x80506d8",
+   4928
+  ],
+  [
+   "0x7e46520",
+   4740
+  ]
+ ]
+}

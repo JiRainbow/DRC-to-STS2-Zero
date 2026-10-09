@@ -1,0 +1,56 @@
+using System.Collections.Generic;
+using System.Threading.Tasks;
+using MegaCrit.Sts2.Core.Commands;
+using MegaCrit.Sts2.Core.Entities.Cards;
+using MegaCrit.Sts2.Core.Entities.Creatures;
+using MegaCrit.Sts2.Core.Entities.Powers;
+using MegaCrit.Sts2.Core.GameActions.Multiplayer;
+using MegaCrit.Sts2.Core.ValueProps;
+
+namespace MegaCrit.Sts2.Core.Models.Powers;
+
+public sealed class SerpentFormPower : PowerModel
+{
+	private class Data
+	{
+		/// <summary>
+		/// Keep track of the cards we've seen played and the power amount at the time they were played.
+		/// This lets Serpent Form avoid triggering on cards that started play before it was applied, and avoid
+		/// dealing extra damage on multiple plays of Serpent Form.
+		/// </summary>
+		public readonly Dictionary<CardModel, int> amountsForPlayedCards = new Dictionary<CardModel, int>();
+	}
+
+	public override PowerType Type => PowerType.Buff;
+
+	public override PowerStackType StackType => PowerStackType.Counter;
+
+	protected override object InitInternalData()
+	{
+		return new Data();
+	}
+
+	public override Task BeforeCardPlayed(CardPlay cardPlay)
+	{
+		if (cardPlay.Card.Owner != Owner.Player)
+		{
+			return Task.CompletedTask;
+		}
+		GetInternalData<Data>().amountsForPlayedCards.Add(cardPlay.Card, Amount);
+		return Task.CompletedTask;
+	}
+
+	public override async Task AfterCardPlayed(PlayerChoiceContext choiceContext, CardPlay cardPlay)
+	{
+		if (cardPlay.Card.Owner == Owner.Player && GetInternalData<Data>().amountsForPlayedCards.Remove(cardPlay.Card, out var damage) && damage > 0)
+		{
+			await Cmd.CustomScaledWait(0.1f, 0.2f);
+			Creature creature = Owner.Player.RunState.Rng.CombatTargets.NextItem(Owner.CombatState.HittableEnemies);
+			if (creature != null)
+			{
+				VfxCmd.PlayOnCreatureCenter(creature, "vfx/vfx_attack_blunt");
+				await CreatureCmd.Damage(choiceContext, creature, damage, ValueProp.Unpowered, Owner);
+			}
+		}
+	}
+}

@@ -1,0 +1,177 @@
+{
+ "file": "part_000101.c",
+ "bytes": 363767,
+ "functions": 178,
+ "addr_min": "0xb88b7fc",
+ "addr_max": "0xb9a8198",
+ "top_symbols": [
+  [
+   "std::__ndk1",
+   177
+  ],
+  [
+   "std::__ndk1::mutex",
+   49
+  ],
+  [
+   "gamesdk::Trace",
+   18
+  ],
+  [
+   "swappy::SwappyGL",
+   16
+  ],
+  [
+   "std::__ndk1::allocator<char>>",
+   13
+  ],
+  [
+   "swappy::ChoreographerFilter",
+   12
+  ],
+  [
+   "swappy",
+   12
+  ],
+  [
+   "swappy::Settings",
+   12
+  ],
+  [
+   "Thread",
+   11
+  ],
+  [
+   "Settings",
+   10
+  ],
+  [
+   "swappy::CpuInfo",
+   8
+  ],
+  [
+   "std::__ndk1::less<std::__ndk1::chrono",
+   8
+  ],
+  [
+   "std::__ndk1::condition_variable",
+   7
+  ],
+  [
+   "CpuInfo",
+   6
+  ],
+  [
+   "swappy::SwappyDisplayManager",
+   6
+  ],
+  [
+   "std::__ndk1::allocator<std::__ndk1::pair<std::__ndk1::chrono",
+   6
+  ],
+  [
+   "swappy::EGL",
+   6
+  ],
+  [
+   "std::__ndk1::allocator<std::__ndk1",
+   5
+  ],
+  [
+   "swappy::NDKChoreographerThread",
+   4
+  ],
+  [
+   "std::__ndk1::__value_type<std::__ndk1::chrono",
+   4
+  ],
+  [
+   "std::__ndk1::vector<swappy",
+   3
+  ],
+  [
+   "std::__ndk1::allocator<swappy",
+   3
+  ],
+  [
+   "swappy::Thread",
+   3
+  ],
+  [
+   "std::__ndk1::char_traits<char>>",
+   3
+  ],
+  [
+   "std::__ndk1::allocator<std::__ndk1::map<std::__ndk1::chrono",
+   3
+  ]
+ ],
+ "symbol_total": 440,
+ "strings_top": [
+  [
+   ";\r\n  }\r\n  else {\r\n    pcVar3 = ",
+   1
+  ]
+ ],
+ "keywords": {
+  "spine": 0,
+  "material": 0,
+  "skeleton": 0,
+  "vertex": 0,
+  "color": 0,
+  "pulse": 0,
+  "particle": 1,
+  "fight": 0
+ },
+ "relevance": 0,
+ "largest_functions": [
+  [
+   "0xb88d20c",
+   5832
+  ],
+  [
+   "0xb93c070",
+   4420
+  ],
+  [
+   "0xb99bd18",
+   1480
+  ],
+  [
+   "0xb88bbc0",
+   1320
+  ],
+  [
+   "0xb93a6d4",
+   1068
+  ],
+  [
+   "0xb925cf4",
+   972
+  ],
+  [
+   "0xb98f354",
+   940
+  ],
+  [
+   "0xb938c00",
+   904
+  ],
+  [
+   "0xb994434",
+   876
+  ],
+  [
+   "0xb9a61e0",
+   752
+  ],
+  [
+   "0xb9949bc",
+   720
+  ],
+  [
+   "0xb936798",
+   688
+  ]
+ ]
+}

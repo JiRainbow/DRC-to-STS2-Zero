@@ -1,0 +1,229 @@
+{
+ "file": "part_000093.c",
+ "bytes": 3263624,
+ "functions": 1243,
+ "addr_min": "0xb0edaf8",
+ "addr_max": "0xb861768",
+ "top_symbols": [
+  [
+   "physx",
+   738
+  ],
+  [
+   "physx::shdfnd",
+   425
+  ],
+  [
+   "shdfnd",
+   318
+  ],
+  [
+   "physx::Gu",
+   146
+  ],
+  [
+   "physx::Sn",
+   118
+  ],
+  [
+   "physx::profile::PxProfileWrapperReflectionAllocator<physx::Sn",
+   117
+  ],
+  [
+   "physx::Sc",
+   102
+  ],
+  [
+   "physx::Sq",
+   93
+  ],
+  [
+   "physx::Sc::Scene",
+   89
+  ],
+  [
+   "UnicodeString",
+   87
+  ],
+  [
+   "physx::shdfnd::ReflectionAllocator<physx::Sc",
+   63
+  ],
+  [
+   "physx::shdfnd::NonTrackingAllocator>",
+   57
+  ],
+  [
+   "physx::Dy",
+   54
+  ],
+  [
+   "physx::Gu::HeightField",
+   54
+  ],
+  [
+   "physx::cloth",
+   37
+  ],
+  [
+   "physx::shdfnd::ReflectionAllocator<unsigned_int>>",
+   34
+  ],
+  [
+   "physx::cloth::ClothImpl<physx::cloth::SwCloth>",
+   34
+  ],
+  [
+   "physx::Cm::DelegateTask<physx::Sc",
+   33
+  ],
+  [
+   "physx::shdfnd::internal",
+   32
+  ],
+  [
+   "physx::pvdsdk",
+   31
+  ],
+  [
+   "FMemory",
+   29
+  ],
+  [
+   "physx::profile",
+   27
+  ],
+  [
+   "physx::shdfnd::ReflectionAllocator<physx",
+   26
+  ],
+  [
+   "shdfnd::MutexImpl",
+   26
+  ],
+  [
+   "physx::Gu::LocalConvex<physx::Gu",
+   26
+  ]
+ ],
+ "symbol_total": 4688,
+ "strings_top": [
+  [
+   "<NumberStringBuilder [",
+   1
+  ],
+  [
+   "] [",
+   1
+  ],
+  [
+   "unit-width-narrow",
+   1
+  ],
+  [
+   "unit-width-short",
+   1
+  ],
+  [
+   "unit-width-full-name",
+   1
+  ],
+  [
+   "unit-width-iso-code",
+   1
+  ],
+  [
+   "unit-width-hidden",
+   1
+  ],
+  [
+   "engineering",
+   1
+  ],
+  [
+   "scientific",
+   1
+  ],
+  [
+   "compact-short",
+   1
+  ],
+  [
+   "compact-long",
+   1
+  ],
+  [
+   "decimal-always",
+   1
+  ],
+  [
+   "precision-integer",
+   1
+  ],
+  [
+   "<Symbol>",
+   1
+  ]
+ ],
+ "keywords": {
+  "spine": 0,
+  "material": 43,
+  "skeleton": 0,
+  "vertex": 28,
+  "color": 0,
+  "pulse": 0,
+  "particle": 219,
+  "fight": 0
+ },
+ "relevance": 142,
+ "largest_functions": [
+  [
+   "0xb861768",
+   28884
+  ],
+  [
+   "0xb591434",
+   10676
+  ],
+  [
+   "0xb1ae808",
+   8388
+  ],
+  [
+   "0xb30a8f0",
+   7788
+  ],
+  [
+   "0xb4ce0e4",
+   5884
+  ],
+  [
+   "0xb136bec",
+   5140
+  ],
+  [
+   "0xb1085b4",
+   4772
+  ],
+  [
+   "0xb2fc264",
+   3804
+  ],
+  [
+   "0xb3cc5a4",
+   3500
+  ],
+  [
+   "0xb2e4cb4",
+   3292
+  ],
+  [
+   "0xb240044",
+   3016
+  ],
+  [
+   "0xb39b5a4",
+   3004
+  ]
+ ]
+}

@@ -1,0 +1,293 @@
+{
+ "file": "part_000016.c",
+ "bytes": 8000262,
+ "functions": 4621,
+ "addr_min": "0x6cf1858",
+ "addr_max": "0x7bd3b58",
+ "top_symbols": [
+  [
+   "FMemory",
+   2163
+  ],
+  [
+   "UObject",
+   303
+  ],
+  [
+   "FString",
+   303
+  ],
+  [
+   "UE4Function_Private",
+   285
+  ],
+  [
+   "FName",
+   274
+  ],
+  [
+   "MovieScene",
+   239
+  ],
+  [
+   "FFrame",
+   217
+  ],
+  [
+   "gte",
+   200
+  ],
+  [
+   "FMsg",
+   183
+  ],
+  [
+   "UE4CodeGen_Private",
+   169
+  ],
+  [
+   "FGenericPlatformString",
+   145
+  ],
+  [
+   "Eigen",
+   139
+  ],
+  [
+   "const",
+   137
+  ],
+  [
+   "Audio",
+   117
+  ],
+  [
+   "std::__ndk1",
+   107
+  ],
+  [
+   "FTextLocalizationResource",
+   101
+  ],
+  [
+   "FImgMediaGlobalCache",
+   98
+  ],
+  [
+   "AActor",
+   96
+  ],
+  [
+   "gte::UIntegerAP32>",
+   87
+  ],
+  [
+   "MeshAutoRepair::FComponentMesh>",
+   85
+  ],
+  [
+   "FDynamicMesh3",
+   80
+  ],
+  [
+   "FWeakObjectPtr",
+   77
+  ],
+  [
+   "FFieldSystemMetaData",
+   76
+  ],
+  [
+   "FGenericPlatformStricmp",
+   75
+  ],
+  [
+   "TextFormatTokens",
+   75
+  ]
+ ],
+ "symbol_total": 14367,
+ "strings_top": [
+  [
+   "Engine",
+   104
+  ],
+  [
+   "/Script/UMGCustom",
+   37
+  ],
+  [
+   "/Script/Synthesis",
+   34
+  ],
+  [
+   "%s%s",
+   23
+  ],
+  [
+   "OSS: ",
+   23
+  ],
+  [
+   "/Script/OnlineSubsystemUtils",
+   22
+  ],
+  [
+   "%s: The two values are not equal.",
+   12
+  ],
+  [
+   "default",
+   11
+  ],
+  [
+   "/Script/AzureFacility",
+   10
+  ],
+  [
+   "/Script/TemplateSequence",
+   9
+  ],
+  [
+   "Value",
+   9
+  ],
+  [
+   "OnlineSubsystem",
+   8
+  ],
+  [
+   "Pure virtual not implemented (%s)",
+   6
+  ],
+  [
+   "/Script/AudioCapture",
+   6
+  ],
+  [
+   "PlatformMemoryBuckets",
+   6
+  ],
+  [
+   "URL",
+   6
+  ],
+  [
+   "/Script/GameplayCameras",
+   5
+  ],
+  [
+   "Physics Field",
+   5
+  ],
+  [
+   "Core",
+   5
+  ],
+  [
+   "/Script/AudioSynesthesia",
+   4
+  ],
+  [
+   "/Script/LocationServicesBPLibrary",
+   4
+  ],
+  [
+   "Orientation",
+   3
+  ],
+  [
+   "/Script/MediaCompositing",
+   3
+  ],
+  [
+   "World Position",
+   3
+  ],
+  [
+   "Target Type",
+   3
+  ],
+  [
+   "TestAccountCredentials",
+   3
+  ],
+  [
+   "FriendAccountCredentials",
+   3
+  ],
+  [
+   "Synth2DSliderStyle",
+   3
+  ],
+  [
+   "MallocBinnedArena Corruption Canary was 0x%x, should be 0x%x",
+   3
+  ],
+  [
+   "other",
+   3
+  ]
+ ],
+ "keywords": {
+  "spine": 1019,
+  "material": 161,
+  "skeleton": 35,
+  "vertex": 514,
+  "color": 235,
+  "pulse": 0,
+  "particle": 841,
+  "fight": 0
+ },
+ "relevance": 4512,
+ "largest_functions": [
+  [
+   "0x711a360",
+   25400
+  ],
+  [
+   "0x75b4bc0",
+   9884
+  ],
+  [
+   "0x7982a68",
+   9400
+  ],
+  [
+   "0x795e894",
+   9400
+  ],
+  [
+   "0x74beac4",
+   6548
+  ],
+  [
+   "0x77cc8fc",
+   5860
+  ],
+  [
+   "0x744f024",
+   5072
+  ],
+  [
+   "0x756b9a4",
+   5024
+  ],
+  [
+   "0x7928f34",
+   4924
+  ],
+  [
+   "0x7a46678",
+   4384
+  ],
+  [
+   "0x752ef2c",
+   4300
+  ],
+  [
+   "0x73d9744",
+   3740
+  ]
+ ]
+}

@@ -1,0 +1,237 @@
+{
+ "file": "part_000094.c",
+ "bytes": 3950035,
+ "functions": 1391,
+ "addr_min": "0xb170a34",
+ "addr_max": "0xb9a81b0",
+ "top_symbols": [
+  [
+   "physx",
+   1083
+  ],
+  [
+   "UnicodeString",
+   354
+  ],
+  [
+   "physx::shdfnd",
+   325
+  ],
+  [
+   "physx::Sn",
+   268
+  ],
+  [
+   "physx::profile::PxProfileWrapperReflectionAllocator<physx::Sn",
+   268
+  ],
+  [
+   "shdfnd",
+   230
+  ],
+  [
+   "oo2",
+   215
+  ],
+  [
+   "icu_64",
+   209
+  ],
+  [
+   "std::__ndk1",
+   122
+  ],
+  [
+   "UMemory",
+   87
+  ],
+  [
+   "physx::shdfnd::ReflectionAllocator<physx",
+   85
+  ],
+  [
+   "MeasureUnit",
+   74
+  ],
+  [
+   "physx::Gu",
+   71
+  ],
+  [
+   "physx::Sc",
+   68
+  ],
+  [
+   "TimeZoneTransition",
+   59
+  ],
+  [
+   "swappy::SwappyCommon",
+   52
+  ],
+  [
+   "gamesdk::Trace",
+   50
+  ],
+  [
+   "TimeZoneRule",
+   49
+  ],
+  [
+   "physx::profile",
+   42
+  ],
+  [
+   "physx::shdfnd::Hash<physx::Sc",
+   38
+  ],
+  [
+   "physx::Sc::ClothCore",
+   38
+  ],
+  [
+   "local",
+   37
+  ],
+  [
+   "UnicodeSet",
+   37
+  ],
+  [
+   "physx::RepXPropertyFilter<physx::Sn::RepXVisitorWriter<physx",
+   36
+  ],
+  [
+   "physx::shdfnd::internal",
+   35
+  ]
+ ],
+ "symbol_total": 7039,
+ "strings_top": [
+  [
+   "{0}, {1}",
+   1
+  ],
+  [
+   "offset:other㙎捩彵㐶㐱敍獳条健瑡整湲E㙎捩彵㐶㈱桃楯散潆浲瑡E℔⸇䄀",
+   1
+  ],
+  [
+   "other㙎捩彵㐶㐱敍獳条健瑡整湲E㙎捩彵㐶㈱桃楯散潆浲瑡E℔⸇䄀",
+   1
+  ],
+  [
+   "NaN: ",
+   1
+  ],
+  [
+   "calendar=",
+   1
+  ],
+  [
+   "Calendar",
+   1
+  ],
+  [
+   "Etc/Unknown",
+   1
+  ],
+  [
+   "Collator",
+   1
+  ],
+  [
+   "X-TZINFO:",
+   1
+  ],
+  [
+   "/Simple@",
+   1
+  ],
+  [
+   "\\r\\n",
+   1
+  ],
+  [
+   "{0}mm",
+   1
+  ],
+  [
+   "<NumberParserImpl matchers:[",
+   1
+  ],
+  [
+   " ]>",
+   1
+  ],
+  [
+   "<ReqCurrency>",
+   1
+  ],
+  [
+   "<ReqDecimal>",
+   1
+  ]
+ ],
+ "keywords": {
+  "spine": 0,
+  "material": 33,
+  "skeleton": 62,
+  "vertex": 38,
+  "color": 2,
+  "pulse": 0,
+  "particle": 193,
+  "fight": 0
+ },
+ "relevance": 328,
+ "largest_functions": [
+  [
+   "0xb60d27c",
+   15564
+  ],
+  [
+   "0xb879e18",
+   12252
+  ],
+  [
+   "0xb6c210c",
+   11220
+  ],
+  [
+   "0xb907a38",
+   8164
+  ],
+  [
+   "0xb1710bc",
+   7964
+  ],
+  [
+   "0xb36afd0",
+   7148
+  ],
+  [
+   "0xb3053f4",
+   6656
+  ],
+  [
+   "0xb5df644",
+   6280
+  ],
+  [
+   "0xb3bdf9c",
+   6032
+  ],
+  [
+   "0xb5d72b4",
+   4348
+  ],
+  [
+   "0xb5be0a4",
+   4324
+  ],
+  [
+   "0xb988bdc",
+   3844
+  ]
+ ]
+}
