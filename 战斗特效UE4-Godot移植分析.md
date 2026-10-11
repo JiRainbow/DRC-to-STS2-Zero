@@ -78,6 +78,6 @@
 ## 4. 约束提醒（执行时必守）
 
 - 两 mod 去污染：skill01 特效纹理/材质全部进 **LingChar.pck 自有路径**（effects/ling_skill/ 之类），不得与 LingSilentSkin.pck 产生共享路径。
-- 改构建脚本后必跑 `python D:\项目\dragonraja\_migration\toolchain_check.py`（FAIL=0）。
+- 改构建脚本后必跑 `python D:\项目\dragonraja\tools\toolchain_check.py`（FAIL=0）。
 - 纹理提取：热更走 `tools/iguf_extract_asset.py`，基础包走 `tools/azpack_extract_one.py`（条目名反斜杠归一）。
 - 参数取值：发射器参数从属性转储（ue4_dump.py）与材质 MI 转储读取；本报告未标注"实测/转储"字样的数值一律不许直接写进代码。
