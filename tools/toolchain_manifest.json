@@ -20,15 +20,15 @@
     },
     {
       "dst": "ModForge/spikes/LingChar/LingChar.pck",
-      "sha256": "6d10cdbba098f8da4052aa2a31c4f035570afa2b96040a086214a7a05e98de32",
-      "size": 23464857,
-      "note": "角色 mod 最终 pck（194 条，去污染架构产物）；2026-10-11 重基线（65a0508 MirrorPupilAncient 重建后实测）"
+      "sha256": "98f92044631af51285568c2e599d6ff49c8aa57568639c1aa546fb9ea97fcad6",
+      "size": 23539482,
+      "note": "角色 mod 最终 pck（203 条，去污染架构产物）；2026-10-11 条目53 重基线（dir_rot_fix=7.81 注入，δ 定案产物；与已安装 Mods/LingChar 逐字节一致）"
     },
     {
       "dst": "ModForge/spikes/LingChar/bin/Release/net9.0/LingChar.dll",
-      "sha256": "5f37bddb4a1b2f66511cc873bdeba794a6e45638425da5c1665492df99fb5512",
-      "size": 121344,
-      "note": "角色 mod 最终 dll（含 DyeFramework + MirrorPupil + Harmony patches）；2026-10-10 SelectWarm v8.2（实例复用+入场动画每次重播）；2026-10-11 重基线（65a0508 重建后实测）"
+      "sha256": "5f1b27fa8bf99825fba8b02410e7558f91230296fe6e9ac1c94966a02ecb1fdd",
+      "size": 122880,
+      "note": "角色 mod 最终 dll（含 DyeFramework + MirrorPupil + Harmony patches）；2026-10-11 条目53 重基线（与条目52 诊断构建同字节，δ 修复仅动 config）"
     }
   ],
   "items": [

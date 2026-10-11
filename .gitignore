@@ -2,12 +2,16 @@
 com.zulong.drc.gw/
 resources/
 unpacked/
+render_work/
 base.apk
 drcbingpinzhuan.apk
 *.apk
 
 # ---- 工作区内部数据 ----
 .workbuddy/
+.mimosa/
+.zcode/
+.zcodeignore
 
 # ---- 二进制资产兜底（文本源码/场景/配置全保留）----
 *.png
@@ -24,3 +28,7 @@ drcbingpinzhuan.apk
 *.atlas
 *.dll
 *.exe
+
+# ---- 构建产物（可从源码复现）----
+sts2_work/DRCSpineDye/dll/bin/
+sts2_work/DRCSpineDye/dll/obj/
